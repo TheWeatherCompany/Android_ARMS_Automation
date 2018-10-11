@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1523281421732" stop="1523282411224" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1523281610899" stop="1523281650520" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps>
+                <step start="1523281610947" stop="1523281610949" status="passed">
+                    <name>logStep[Validating the feed_1 testcase]</name>
+                    <title>Validating the feed_1 testcase</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281610950" stop="1523281610950" status="passed">
+                    <name>logStep[Clearing the charles session]</name>
+                    <title>Clearing the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281620885" stop="1523281620885" status="passed">
+                    <name>logStep[Cleared the charles session]</name>
+                    <title>Cleared the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281620885" stop="1523281620885" status="passed">
+                    <name>logStep[Wait till app was launched]</name>
+                    <title>Wait till app was launched</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281625887" stop="1523281625887" status="passed">
+                    <name>logStep[set the location on the app]</name>
+                    <title>set the location on the app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281631104" stop="1523281631104" status="passed">
+                    <name>logStep[Scrolling the app to  feed_1]</name>
+                    <title>Scrolling the app to  feed_1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281643818" stop="1523281643818" status="passed">
+                    <name>logStep[validating the feed_1 ad]</name>
+                    <title>validating the feed_1 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281643819" stop="1523281643819" status="passed">
+                    <name>logStep[Checking for feed1 ad]</name>
+                    <title>Checking for feed1 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281646270" stop="1523281646270" status="passed">
+                    <name>logStep[feed_1 ad present]</name>
+                    <title>feed_1 ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281650517" stop="1523281650517" status="passed">
+                    <name>logStep[took the passed screenshot]</name>
+                    <title>took the passed screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed1"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281610899" stop="1523281650520" status="passed">
+            <name>Validating_feed1</name>
+            <title>Validating feed_1 Ad call</title>
+            <steps>
+                <step start="1523281610947" stop="1523281610949" status="passed">
+                    <name>logStep[Validating the feed_1 testcase]</name>
+                    <title>Validating the feed_1 testcase</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281610950" stop="1523281610950" status="passed">
+                    <name>logStep[Clearing the charles session]</name>
+                    <title>Clearing the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281620885" stop="1523281620885" status="passed">
+                    <name>logStep[Cleared the charles session]</name>
+                    <title>Cleared the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281620885" stop="1523281620885" status="passed">
+                    <name>logStep[Wait till app was launched]</name>
+                    <title>Wait till app was launched</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281625887" stop="1523281625887" status="passed">
+                    <name>logStep[set the location on the app]</name>
+                    <title>set the location on the app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281631104" stop="1523281631104" status="passed">
+                    <name>logStep[Scrolling the app to  feed_1]</name>
+                    <title>Scrolling the app to  feed_1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281643818" stop="1523281643818" status="passed">
+                    <name>logStep[validating the feed_1 ad]</name>
+                    <title>validating the feed_1 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281643819" stop="1523281643819" status="passed">
+                    <name>logStep[Checking for feed1 ad]</name>
+                    <title>Checking for feed1 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281646270" stop="1523281646270" status="passed">
+                    <name>logStep[feed_1 ad present]</name>
+                    <title>feed_1 ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281650517" stop="1523281650517" status="passed">
+                    <name>logStep[took the passed screenshot]</name>
+                    <title>took the passed screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed1"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281650526" stop="1523281720835" status="passed">
+            <name>test</name>
+            <title>Validating NativeBB</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281650526" stop="1523281720835" status="passed">
+            <name>test</name>
+            <title>Validating NativeBB</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="test"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281721041" stop="1523281748011" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps>
+                <step start="1523281721042" stop="1523281721042" status="passed">
+                    <name>logStep[Validating feed_2 Ad TestCase Started]</name>
+                    <title>Validating feed_2 Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281721042" stop="1523281721042" status="passed">
+                    <name>logStep[Scroll the App to feed_2 Ad]</name>
+                    <title>Scroll the App to feed_2 Ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281733574" stop="1523281733575" status="passed">
+                    <name>logStep[Checking for feed2 ad]</name>
+                    <title>Checking for feed2 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281742498" stop="1523281742498" status="passed">
+                    <name>logStep[feed_2 ad present]</name>
+                    <title>feed_2 ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281748011" stop="1523281748011" status="passed">
+                    <name>logStep[took the passed screenshot]</name>
+                    <title>took the passed screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed2"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281721041" stop="1523281748011" status="passed">
+            <name>Validating_feed2</name>
+            <title>Validating feed_2 Ad call</title>
+            <steps>
+                <step start="1523281721042" stop="1523281721042" status="passed">
+                    <name>logStep[Validating feed_2 Ad TestCase Started]</name>
+                    <title>Validating feed_2 Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281721042" stop="1523281721042" status="passed">
+                    <name>logStep[Scroll the App to feed_2 Ad]</name>
+                    <title>Scroll the App to feed_2 Ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281733574" stop="1523281733575" status="passed">
+                    <name>logStep[Checking for feed2 ad]</name>
+                    <title>Checking for feed2 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281742498" stop="1523281742498" status="passed">
+                    <name>logStep[feed_2 ad present]</name>
+                    <title>feed_2 ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281748011" stop="1523281748011" status="passed">
+                    <name>logStep[took the passed screenshot]</name>
+                    <title>took the passed screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed2"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281748016" stop="1523281759929" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps>
+                <step start="1523281748016" stop="1523281748016" status="passed">
+                    <name>logStep[Validating feed_3 Ad TestCase Started]</name>
+                    <title>Validating feed_3 Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281748017" stop="1523281748017" status="passed">
+                    <name>logStep[Scroll the app to feed3 ad]</name>
+                    <title>Scroll the app to feed3 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed3"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281748016" stop="1523281759929" status="passed">
+            <name>Validating_feed3</name>
+            <title>Validating feed_3 Ad call</title>
+            <steps>
+                <step start="1523281748016" stop="1523281748016" status="passed">
+                    <name>logStep[Validating feed_3 Ad TestCase Started]</name>
+                    <title>Validating feed_3 Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281748017" stop="1523281748017" status="passed">
+                    <name>logStep[Scroll the app to feed3 ad]</name>
+                    <title>Scroll the app to feed3 ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed3"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281759933" stop="1523281841037" status="failed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_4 Ad call</title>
+            <failure>
+                <message>AssertionError: feed4 ad not present</message>
+                <stack-trace>java.lang.AssertionError: feed4 ad not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_feed4_ad(AppiumFunctions.java:467)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed4(FeedAdVAlidationonUI.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1523281759934" stop="1523281759934" status="passed">
+                    <name>logStep[Validating feed_4 testcase Started]</name>
+                    <title>Validating feed_4 testcase Started</title>
+                </step>
+                <step start="1523281759934" stop="1523281759934" status="passed">
+                    <name>logStep[scroll the app to feed_4]</name>
+                    <title>scroll the app to feed_4</title>
+                </step>
+                <step start="1523281772375" stop="1523281772375" status="passed">
+                    <name>logStep[Checking for feed4 ad]</name>
+                    <title>Checking for feed4 ad</title>
+                </step>
+                <step start="1523281832661" stop="1523281832661" status="passed">
+                    <name>logStep[feed4 ad not present]</name>
+                    <title>feed4 ad not present</title>
+                </step>
+                <step start="1523281836724" stop="1523281836724" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                </step>
+                <step start="1523281841021" stop="1523281841021" status="passed">
+                    <name>logStep[took the failed feed4 screen shot]</name>
+                    <title>took the failed feed4 screen shot</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="4ecfb24d-33ee-43a8-8623-2d2254dc5cbe-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed4"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281759933" stop="1523281841037" status="failed">
+            <name>Validating_feed4</name>
+            <title>Validating feed_4 Ad call</title>
+            <failure>
+                <message>AssertionError: feed4 ad not present</message>
+                <stack-trace>java.lang.AssertionError: feed4 ad not present
+	at org.testng.Assert.fail(Assert.java:94)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_feed4_ad(AppiumFunctions.java:467)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_feed4(FeedAdVAlidationonUI.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1523281759934" stop="1523281759934" status="passed">
+                    <name>logStep[Validating feed_4 testcase Started]</name>
+                    <title>Validating feed_4 testcase Started</title>
+                </step>
+                <step start="1523281759934" stop="1523281759934" status="passed">
+                    <name>logStep[scroll the app to feed_4]</name>
+                    <title>scroll the app to feed_4</title>
+                </step>
+                <step start="1523281772375" stop="1523281772375" status="passed">
+                    <name>logStep[Checking for feed4 ad]</name>
+                    <title>Checking for feed4 ad</title>
+                </step>
+                <step start="1523281832661" stop="1523281832661" status="passed">
+                    <name>logStep[feed4 ad not present]</name>
+                    <title>feed4 ad not present</title>
+                </step>
+                <step start="1523281836724" stop="1523281836724" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                </step>
+                <step start="1523281841021" stop="1523281841021" status="passed">
+                    <name>logStep[took the failed feed4 screen shot]</name>
+                    <title>took the failed feed4 screen shot</title>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="4ecfb24d-33ee-43a8-8623-2d2254dc5cbe-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_feed4"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281841046" stop="1523282009949" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps>
+                <step start="1523281841047" stop="1523281841047" status="passed">
+                    <name>logStep[Validating Extended Hourly page Ad TestCase Started]</name>
+                    <title>Validating Extended Hourly page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281841048" stop="1523281841048" status="passed">
+                    <name>logStep[kill and launch the app]</name>
+                    <title>kill and launch the app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281867809" stop="1523281867809" status="passed">
+                    <name>logStep[Scroll the app till hourly page]</name>
+                    <title>Scroll the app till hourly page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281993850" stop="1523281993850" status="passed">
+                    <name>logStep[Hourly page is presented on the screen]</name>
+                    <title>Hourly page is presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281993943" stop="1523281993943" status="passed">
+                    <name>logStep[clicked the hourly page link]</name>
+                    <title>clicked the hourly page link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281993944" stop="1523281993944" status="passed">
+                    <name>logStep[Checking for Hourly Submodule ad]</name>
+                    <title>Checking for Hourly Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282001526" stop="1523282001526" status="passed">
+                    <name>logStep[Hourly submodule ad present]</name>
+                    <title>Hourly submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282004843" stop="1523282004843" status="passed">
+                    <name>logStep[took the passed submoduleAd_Hourly screenshot]</name>
+                    <title>took the passed submoduleAd_Hourly screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_hourly_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523281841046" stop="1523282009949" status="passed">
+            <name>Extended_hourly_page_Ad</name>
+            <title>Validating Extended hourly page Ad</title>
+            <steps>
+                <step start="1523281841047" stop="1523281841047" status="passed">
+                    <name>logStep[Validating Extended Hourly page Ad TestCase Started]</name>
+                    <title>Validating Extended Hourly page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281841048" stop="1523281841048" status="passed">
+                    <name>logStep[kill and launch the app]</name>
+                    <title>kill and launch the app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281867809" stop="1523281867809" status="passed">
+                    <name>logStep[Scroll the app till hourly page]</name>
+                    <title>Scroll the app till hourly page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281993850" stop="1523281993850" status="passed">
+                    <name>logStep[Hourly page is presented on the screen]</name>
+                    <title>Hourly page is presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281993943" stop="1523281993943" status="passed">
+                    <name>logStep[clicked the hourly page link]</name>
+                    <title>clicked the hourly page link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523281993944" stop="1523281993944" status="passed">
+                    <name>logStep[Checking for Hourly Submodule ad]</name>
+                    <title>Checking for Hourly Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282001526" stop="1523282001526" status="passed">
+                    <name>logStep[Hourly submodule ad present]</name>
+                    <title>Hourly submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282004843" stop="1523282004843" status="passed">
+                    <name>logStep[took the passed submoduleAd_Hourly screenshot]</name>
+                    <title>took the passed submoduleAd_Hourly screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_hourly_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523282010163" stop="1523282029284" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps>
+                <step start="1523282010163" stop="1523282010163" status="passed">
+                    <name>logStep[Validating Extended Daily page Ad TestCase Started]</name>
+                    <title>Validating Extended Daily page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282010164" stop="1523282010164" status="passed">
+                    <name>logStep[Scroll the app till Daily page]</name>
+                    <title>Scroll the app till Daily page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282013128" stop="1523282013128" status="passed">
+                    <name>logStep[Daily page is presented on the screen]</name>
+                    <title>Daily page is presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282013232" stop="1523282013232" status="passed">
+                    <name>logStep[clicked the Daily page link]</name>
+                    <title>clicked the Daily page link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282013232" stop="1523282013232" status="passed">
+                    <name>logStep[Checking for Daily Submodule ad]</name>
+                    <title>Checking for Daily Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282020998" stop="1523282020998" status="passed">
+                    <name>logStep[Daily submodule ad present]</name>
+                    <title>Daily submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282024153" stop="1523282024153" status="passed">
+                    <name>logStep[took the submoduleAd_Daily screenshot]</name>
+                    <title>took the submoduleAd_Daily screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Daily_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523282010163" stop="1523282029284" status="passed">
+            <name>Extended_Daily_page_Ad</name>
+            <title>Validating Extended Daily page Ad</title>
+            <steps>
+                <step start="1523282010163" stop="1523282010163" status="passed">
+                    <name>logStep[Validating Extended Daily page Ad TestCase Started]</name>
+                    <title>Validating Extended Daily page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282010164" stop="1523282010164" status="passed">
+                    <name>logStep[Scroll the app till Daily page]</name>
+                    <title>Scroll the app till Daily page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282013128" stop="1523282013128" status="passed">
+                    <name>logStep[Daily page is presented on the screen]</name>
+                    <title>Daily page is presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282013232" stop="1523282013232" status="passed">
+                    <name>logStep[clicked the Daily page link]</name>
+                    <title>clicked the Daily page link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282013232" stop="1523282013232" status="passed">
+                    <name>logStep[Checking for Daily Submodule ad]</name>
+                    <title>Checking for Daily Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282020998" stop="1523282020998" status="passed">
+                    <name>logStep[Daily submodule ad present]</name>
+                    <title>Daily submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282024153" stop="1523282024153" status="passed">
+                    <name>logStep[took the submoduleAd_Daily screenshot]</name>
+                    <title>took the submoduleAd_Daily screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Daily_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523282029290" stop="1523282266532" status="passed">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <steps>
+                <step start="1523282029291" stop="1523282029291" status="passed">
+                    <name>logStep[Validating Extended Maps&amp;Radar page Ad TestCase Started]</name>
+                    <title>Validating Extended Maps&amp;Radar page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282029291" stop="1523282029291" status="passed">
+                    <name>logStep[Scroll the app till Maps page]</name>
+                    <title>Scroll the app till Maps page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282243545" stop="1523282243545" status="passed">
+                    <name>logStep[Maps page is presented on the screen]</name>
+                    <title>Maps page is presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282243611" stop="1523282243611" status="passed">
+                    <name>logStep[clicked the Daily page link]</name>
+                    <title>clicked the Daily page link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282243612" stop="1523282243612" status="passed">
+                    <name>logStep[Checking for Maps Submodule ad]</name>
+                    <title>Checking for Maps Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282257242" stop="1523282257242" status="passed">
+                    <name>logStep[Maps submodule ad present]</name>
+                    <title>Maps submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Maps_Radar_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523282029290" stop="1523282266532" status="passed">
+            <name>Extended_Maps_Radar_page_Ad</name>
+            <title>Validating Extended Maps&amp;Radar page Ad</title>
+            <steps>
+                <step start="1523282029291" stop="1523282029291" status="passed">
+                    <name>logStep[Validating Extended Maps&amp;Radar page Ad TestCase Started]</name>
+                    <title>Validating Extended Maps&amp;Radar page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282029291" stop="1523282029291" status="passed">
+                    <name>logStep[Scroll the app till Maps page]</name>
+                    <title>Scroll the app till Maps page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282243545" stop="1523282243545" status="passed">
+                    <name>logStep[Maps page is presented on the screen]</name>
+                    <title>Maps page is presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282243611" stop="1523282243611" status="passed">
+                    <name>logStep[clicked the Daily page link]</name>
+                    <title>clicked the Daily page link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282243612" stop="1523282243612" status="passed">
+                    <name>logStep[Checking for Maps Submodule ad]</name>
+                    <title>Checking for Maps Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282257242" stop="1523282257242" status="passed">
+                    <name>logStep[Maps submodule ad present]</name>
+                    <title>Maps submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Maps_Radar_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523282266672" stop="1523282411014" status="passed">
+            <name>Extended_News_page_Ad</name>
+            <title>Validating Extended News page Ad</title>
+            <steps>
+                <step start="1523282266672" stop="1523282266672" status="passed">
+                    <name>logStep[Validating Extended News page Ad TestCase Started]</name>
+                    <title>Validating Extended News page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282266673" stop="1523282266673" status="passed">
+                    <name>logStep[Scroll the app to news Module]</name>
+                    <title>Scroll the app to news Module</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282330992" stop="1523282330992" status="passed">
+                    <name>logStep[Checking for News Submodule ad]</name>
+                    <title>Checking for News Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282400280" stop="1523282400280" status="passed">
+                    <name>logStep[Newssubmodule ad present]</name>
+                    <title>Newssubmodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282405880" stop="1523282405880" status="passed">
+                    <name>logStep[took the passed submoduleAd_News screenshot]</name>
+                    <title>took the passed submoduleAd_News screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_News_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1523282266672" stop="1523282411014" status="passed">
+            <name>Extended_News_page_Ad</name>
+            <title>Validating Extended News page Ad</title>
+            <steps>
+                <step start="1523282266672" stop="1523282266672" status="passed">
+                    <name>logStep[Validating Extended News page Ad TestCase Started]</name>
+                    <title>Validating Extended News page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282266673" stop="1523282266673" status="passed">
+                    <name>logStep[Scroll the app to news Module]</name>
+                    <title>Scroll the app to news Module</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282330992" stop="1523282330992" status="passed">
+                    <name>logStep[Checking for News Submodule ad]</name>
+                    <title>Checking for News Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282400280" stop="1523282400280" status="passed">
+                    <name>logStep[Newssubmodule ad present]</name>
+                    <title>Newssubmodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1523282405880" stop="1523282405880" status="passed">
+                    <name>logStep[took the passed submoduleAd_News screenshot]</name>
+                    <title>took the passed submoduleAd_News screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_News_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="94580@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

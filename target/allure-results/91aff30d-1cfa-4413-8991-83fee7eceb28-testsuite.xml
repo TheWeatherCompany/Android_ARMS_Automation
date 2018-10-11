@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517847095444" stop="1517847368356" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1517847283406" stop="1517847344665" status="passed">
+            <name>Extended_cold_flu_page_Ad</name>
+            <title>Validating Extended cold &amp; flu page Ad</title>
+            <steps>
+                <step start="1517847311621" stop="1517847311623" status="passed">
+                    <name>logStep[Make Ads As Test From Test Mode Settings In Order To Get BB Ad Call]</name>
+                    <title>Make Ads As Test From Test Mode Settings In Order To Get BB Ad Call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517847311623" stop="1517847311623" status="passed">
+                    <name>logStep[TestMode Settings: 1) Click On Menu Button 2) Click On Settings 3) Click On About This App 4) Click 10 Times On ...]</name>
+                    <title>TestMode Settings: 1) Click On Menu Button 2) Click On Settings 3) Click On About This App 4) Click 10 Times On App Vers...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_cold_flu_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="6430@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1517847283406" stop="1517847344665" status="passed">
+            <name>Extended_cold_flu_page_Ad</name>
+            <title>Validating Extended cold &amp; flu page Ad</title>
+            <steps>
+                <step start="1517847311621" stop="1517847311623" status="passed">
+                    <name>logStep[Make Ads As Test From Test Mode Settings In Order To Get BB Ad Call]</name>
+                    <title>Make Ads As Test From Test Mode Settings In Order To Get BB Ad Call</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517847311623" stop="1517847311623" status="passed">
+                    <name>logStep[TestMode Settings: 1) Click On Menu Button 2) Click On Settings 3) Click On About This App 4) Click 10 Times On ...]</name>
+                    <title>TestMode Settings: 1) Click On Menu Button 2) Click On Settings 3) Click On About This App 4) Click 10 Times On App Vers...</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_cold_flu_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="6430@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
