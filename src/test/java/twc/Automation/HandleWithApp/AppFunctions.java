@@ -1659,7 +1659,7 @@ public class AppFunctions extends Drivers{
 			Swipe();
 
 
-			Boolean b=verifyElement(By.id("com.weather.Weather:id/news_title"));
+			Boolean b=verifyElement(By.id("com.weather.Weather:id/video_backdrop"));
 			if(b==true)
 			{
 				Ad.findElementById("com.weather.Weather:id/video_backdrop").click();
