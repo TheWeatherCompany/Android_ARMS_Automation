@@ -148,7 +148,7 @@ public class FeedAdVAlidationonUI
 						 logStep("Validating Extended Maps&Radar page Ad TestCase Started");
 						 System.out.println("====== Validating Extended Maps&Radar page Ad TestCase Started =======");
 						 logStep("Scroll the app till Maps page");
-						// AppFunctions.Kill_Launch_App();
+						 AppFunctions.Kill_Launch_App();
 						 AppFunctions.SwipeUp_Counter_Maps_submodule();
 						 //AppFunctions.Kill_Launch_App();
 						 System.out.println("====== Validating Extended Maps&Radar page Ad TestCase End =======");	    
