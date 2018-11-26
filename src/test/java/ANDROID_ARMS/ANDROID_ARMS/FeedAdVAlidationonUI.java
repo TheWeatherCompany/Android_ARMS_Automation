@@ -491,9 +491,10 @@ extends Drivers
 	public void End_Test() throws Exception
 	{
 
-		//CharlesFunctions.StopExportSessionXMLFile();
-		//logStep("Clearing the charles session");
-		//CharlesFunctions.ClearSessions();
+		CharlesFunctions.StopExportSessionXMLFile();
+		logStep("Clearing the charles session");
+		CharlesFunctions.ClearSessions();
+		AppiumFunctions.softAssert.assertAll();
 		//Ad.quit();
 	}
 
