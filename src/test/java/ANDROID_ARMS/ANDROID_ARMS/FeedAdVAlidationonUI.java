@@ -31,7 +31,7 @@ extends Drivers
 	//Validating_feedads_and_detailpageads_fromUI
 
 
-		@Test(priority =1,enabled = true)
+		/*@Test(priority =1,enabled = true)
 	public void Validating_Trending_page_Ad() throws Exception
 	{
 	    logStep("Validating Trending page Ad TestCase Started");
@@ -47,7 +47,7 @@ extends Drivers
 		System.out.println("====== Validating Trending page Ad TestCase End =======");
 		logStep("Validating Trending page Ad TestCase End");
 
-	}
+	}*/
 	// Validating feed2 Ad
 	/*@Test(priority =2,enabled = true)
 	@Title("Validating feed_1 Ad call")
@@ -64,7 +64,7 @@ extends Drivers
 		System.out.println("====== Validating feed_1 Ad TestCase End =========");
 	}*/
 	// Validating feed2 Ad
-	@Test(priority =3,enabled = true)
+	/*@Test(priority =3,enabled = true)
 	@Title("Validating Radar feed card")
 	public void Validating_feed2() throws Exception
 	{
@@ -151,7 +151,7 @@ extends Drivers
 		AppFunctions.click_home_element();
 		System.out.println("====== Validating Extended Maps&Radar page Ad TestCase End =======");    
 
-	}
+	}*
 
 	//Validating Health&Activities Module page Ads
 	//Validating Boat&Beach Module page Ad
@@ -182,7 +182,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 				}
 				//Validating Cold_flu Module page Ad
-				@Test(priority =13,enabled = true)
+				@Test(priority =14,enabled = true)
 				@Title("Validating Extended Cold_flu page Ad")
 				public void Extended_ColdFlu_Ad() throws Exception
 				{
@@ -194,8 +194,8 @@ extends Drivers
 					AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 				}
-				//Validating Cold_flu Module page Ad
-				@Test(priority =14,enabled = true)
+				//Validating Allergy Module page Ad
+				@Test(priority =13,enabled = true)
 				@Title("Validating Extended Allergy page Ad")
 				public void Extended_Allergy_Ad() throws Exception
 				{
@@ -491,9 +491,9 @@ extends Drivers
 	public void End_Test() throws Exception
 	{
 
-		CharlesFunctions.StopExportSessionXMLFile();
-		logStep("Clearing the charles session");
-		CharlesFunctions.ClearSessions();
+		//CharlesFunctions.StopExportSessionXMLFile();
+	//	logStep("Clearing the charles session");
+		//CharlesFunctions.ClearSessions();
 		AppiumFunctions.softAssert.assertAll();
 		//Ad.quit();
 	}
