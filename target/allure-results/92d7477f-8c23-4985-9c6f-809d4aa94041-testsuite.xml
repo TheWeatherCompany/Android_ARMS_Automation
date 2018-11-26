@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1543234053859" stop="1543235273396" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1543234217801" stop="1543234315467" status="passed">
+            <name>Extended_Today_datailpage_Ad</name>
+            <title>Validating Extended Today page Ad</title>
+            <steps>
+                <step start="1543234242242" stop="1543234242244" status="passed">
+                    <name>logStep[Checking the  Extended today datail page ad is presnted or not]</name>
+                    <title>Checking the  Extended today datail page ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234242245" stop="1543234242245" status="passed">
+                    <name>logStep[Checking for Today Submodule ad]</name>
+                    <title>Checking for Today Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234307910" stop="1543234307910" status="passed">
+                    <name>logStep[Today submodule ad is not present]</name>
+                    <title>Today submodule ad is not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234310010" stop="1543234310010" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234312128" stop="1543234312128" status="passed">
+                    <name>logStep[took the failed Today submodule ad]</name>
+                    <title>took the failed Today submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="5b49eeb9-6e3a-4c33-92f2-c2d9239cd94e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Today_datailpage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234217801" stop="1543234315467" status="passed">
+            <name>Extended_Today_datailpage_Ad</name>
+            <title>Validating Extended Today page Ad</title>
+            <steps>
+                <step start="1543234242242" stop="1543234242244" status="passed">
+                    <name>logStep[Checking the  Extended today datail page ad is presnted or not]</name>
+                    <title>Checking the  Extended today datail page ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234242245" stop="1543234242245" status="passed">
+                    <name>logStep[Checking for Today Submodule ad]</name>
+                    <title>Checking for Today Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234307910" stop="1543234307910" status="passed">
+                    <name>logStep[Today submodule ad is not present]</name>
+                    <title>Today submodule ad is not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234310010" stop="1543234310010" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234312128" stop="1543234312128" status="passed">
+                    <name>logStep[took the failed Today submodule ad]</name>
+                    <title>took the failed Today submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="5b49eeb9-6e3a-4c33-92f2-c2d9239cd94e-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Today_datailpage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234315477" stop="1543234423918" status="passed">
+            <name>Extended_Deatail_MapsPage_Ad</name>
+            <title>Validating Extended Maps page Ad</title>
+            <steps>
+                <step start="1543234325603" stop="1543234325603" status="passed">
+                    <name>logStep[Checking the  Extended Deatail MapsPage ad is presnted or not]</name>
+                    <title>Checking the  Extended Deatail MapsPage ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234325604" stop="1543234325604" status="passed">
+                    <name>logStep[Checking for Maps Submodule ad]</name>
+                    <title>Checking for Maps Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234357303" stop="1543234357303" status="passed">
+                    <name>logStep[Maps submodule ad present]</name>
+                    <title>Maps submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Deatail_MapsPage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234315477" stop="1543234423918" status="passed">
+            <name>Extended_Deatail_MapsPage_Ad</name>
+            <title>Validating Extended Maps page Ad</title>
+            <steps>
+                <step start="1543234325603" stop="1543234325603" status="passed">
+                    <name>logStep[Checking the  Extended Deatail MapsPage ad is presnted or not]</name>
+                    <title>Checking the  Extended Deatail MapsPage ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234325604" stop="1543234325604" status="passed">
+                    <name>logStep[Checking for Maps Submodule ad]</name>
+                    <title>Checking for Maps Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234357303" stop="1543234357303" status="passed">
+                    <name>logStep[Maps submodule ad present]</name>
+                    <title>Maps submodule ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Deatail_MapsPage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234424209" stop="1543234593585" status="passed">
+            <name>Extended_Boat_beach_Ad</name>
+            <title>Validating Extended Boat&amp;Beach page Ad</title>
+            <steps>
+                <step start="1543234458517" stop="1543234458517" status="passed">
+                    <name>logStep[Checking the boatbeach bb ad is presnted or not]</name>
+                    <title>Checking the boatbeach bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234463520" stop="1543234463520" status="passed">
+                    <name>logStep[boatbeach bb ad present]</name>
+                    <title>boatbeach bb ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234465349" stop="1543234465349" status="passed">
+                    <name>logStep[Checking for boatbeach bb ad]</name>
+                    <title>Checking for boatbeach bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234525671" stop="1543234525671" status="passed">
+                    <name>logStep[boatbeach bb ad not present]</name>
+                    <title>boatbeach bb ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234527608" stop="1543234527608" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234529446" stop="1543234529446" status="passed">
+                    <name>logStep[took the failed boatbeach bb screen shot]</name>
+                    <title>took the failed boatbeach bb screen shot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="9363ee9c-79ad-4ef7-b797-52862bdaa0b8-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Boat_beach_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234424209" stop="1543234593585" status="passed">
+            <name>Extended_Boat_beach_Ad</name>
+            <title>Validating Extended Boat&amp;Beach page Ad</title>
+            <steps>
+                <step start="1543234458517" stop="1543234458517" status="passed">
+                    <name>logStep[Checking the boatbeach bb ad is presnted or not]</name>
+                    <title>Checking the boatbeach bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234463520" stop="1543234463520" status="passed">
+                    <name>logStep[boatbeach bb ad present]</name>
+                    <title>boatbeach bb ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234465349" stop="1543234465349" status="passed">
+                    <name>logStep[Checking for boatbeach bb ad]</name>
+                    <title>Checking for boatbeach bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234525671" stop="1543234525671" status="passed">
+                    <name>logStep[boatbeach bb ad not present]</name>
+                    <title>boatbeach bb ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234527608" stop="1543234527608" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234529446" stop="1543234529446" status="passed">
+                    <name>logStep[took the failed boatbeach bb screen shot]</name>
+                    <title>took the failed boatbeach bb screen shot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="9363ee9c-79ad-4ef7-b797-52862bdaa0b8-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Boat_beach_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234593906" stop="1543234743542" status="passed">
+            <name>Extended_Runningpage_Ad</name>
+            <title>Validating Extended Running page Ad</title>
+            <steps>
+                <step start="1543234615522" stop="1543234615522" status="passed">
+                    <name>logStep[Checking the Running bb ad is presnted or not]</name>
+                    <title>Checking the Running bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234615523" stop="1543234615523" status="passed">
+                    <name>logStep[Checking for Running bb ad]</name>
+                    <title>Checking for Running bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234676076" stop="1543234676076" status="passed">
+                    <name>logStep[Running bb ad not present]</name>
+                    <title>Running bb ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234677970" stop="1543234677970" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234679748" stop="1543234679748" status="passed">
+                    <name>logStep[took the failed Running bb screen shot]</name>
+                    <title>took the failed Running bb screen shot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="2ebb0363-7b41-4792-a145-0010f67192f7-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Runningpage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234593906" stop="1543234743542" status="passed">
+            <name>Extended_Runningpage_Ad</name>
+            <title>Validating Extended Running page Ad</title>
+            <steps>
+                <step start="1543234615522" stop="1543234615522" status="passed">
+                    <name>logStep[Checking the Running bb ad is presnted or not]</name>
+                    <title>Checking the Running bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234615523" stop="1543234615523" status="passed">
+                    <name>logStep[Checking for Running bb ad]</name>
+                    <title>Checking for Running bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234676076" stop="1543234676076" status="passed">
+                    <name>logStep[Running bb ad not present]</name>
+                    <title>Running bb ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234677970" stop="1543234677970" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234679748" stop="1543234679748" status="passed">
+                    <name>logStep[took the failed Running bb screen shot]</name>
+                    <title>took the failed Running bb screen shot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="2ebb0363-7b41-4792-a145-0010f67192f7-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Runningpage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234743547" stop="1543234829207" status="passed">
+            <name>Extended_ColdFlu_Ad</name>
+            <title>Validating Extended Cold_flu page Ad</title>
+            <steps>
+                <step start="1543234760017" stop="1543234760017" status="passed">
+                    <name>logStep[Checking the ColdFlu bb ad is presnted or not]</name>
+                    <title>Checking the ColdFlu bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234760017" stop="1543234760017" status="passed">
+                    <name>logStep[Checking for ColdFlu bb ad]</name>
+                    <title>Checking for ColdFlu bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234762080" stop="1543234762080" status="passed">
+                    <name>logStep[ColdFlu bb ad present]</name>
+                    <title>ColdFlu bb ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_ColdFlu_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234743547" stop="1543234829207" status="passed">
+            <name>Extended_ColdFlu_Ad</name>
+            <title>Validating Extended Cold_flu page Ad</title>
+            <steps>
+                <step start="1543234760017" stop="1543234760017" status="passed">
+                    <name>logStep[Checking the ColdFlu bb ad is presnted or not]</name>
+                    <title>Checking the ColdFlu bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234760017" stop="1543234760017" status="passed">
+                    <name>logStep[Checking for ColdFlu bb ad]</name>
+                    <title>Checking for ColdFlu bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234762080" stop="1543234762080" status="passed">
+                    <name>logStep[ColdFlu bb ad present]</name>
+                    <title>ColdFlu bb ad present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_ColdFlu_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234829447" stop="1543234979811" status="passed">
+            <name>Extended_Allergy_Ad</name>
+            <title>Validating Extended Allergy page Ad</title>
+            <steps>
+                <step start="1543234851295" stop="1543234851295" status="passed">
+                    <name>logStep[Checking the Allergy bb ad is presnted or not]</name>
+                    <title>Checking the Allergy bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234851295" stop="1543234851295" status="passed">
+                    <name>logStep[Checking for Allergy bb ad]</name>
+                    <title>Checking for Allergy bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234911496" stop="1543234911496" status="passed">
+                    <name>logStep[Allergy bb ad not present]</name>
+                    <title>Allergy bb ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234913831" stop="1543234913831" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234916117" stop="1543234916117" status="passed">
+                    <name>logStep[took the failed Allergy bb screen shot]</name>
+                    <title>took the failed Allergy bb screen shot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="acf9cbb8-3271-4946-b050-cc7ff6e51bec-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Allergy_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234829447" stop="1543234979811" status="passed">
+            <name>Extended_Allergy_Ad</name>
+            <title>Validating Extended Allergy page Ad</title>
+            <steps>
+                <step start="1543234851295" stop="1543234851295" status="passed">
+                    <name>logStep[Checking the Allergy bb ad is presnted or not]</name>
+                    <title>Checking the Allergy bb ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234851295" stop="1543234851295" status="passed">
+                    <name>logStep[Checking for Allergy bb ad]</name>
+                    <title>Checking for Allergy bb ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234911496" stop="1543234911496" status="passed">
+                    <name>logStep[Allergy bb ad not present]</name>
+                    <title>Allergy bb ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234913831" stop="1543234913831" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234916117" stop="1543234916117" status="passed">
+                    <name>logStep[took the failed Allergy bb screen shot]</name>
+                    <title>took the failed Allergy bb screen shot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="acf9cbb8-3271-4946-b050-cc7ff6e51bec-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Allergy_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234980131" stop="1543235122249" status="passed">
+            <name>Extended_Deatail_Airpollution_Ad</name>
+            <title>Validating Extended Airpollution page Ad</title>
+            <steps>
+                <step start="1543234989815" stop="1543234989815" status="passed">
+                    <name>logStep[Checking the  Extended Deatail Airpollution ad is presnted or not]</name>
+                    <title>Checking the  Extended Deatail Airpollution ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234989815" stop="1543234989815" status="passed">
+                    <name>logStep[Checking for Air pollution Submodule ad]</name>
+                    <title>Checking for Air pollution Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235055093" stop="1543235055093" status="passed">
+                    <name>logStep[Airpollution page ad is not presented on the screen]</name>
+                    <title>Airpollution page ad is not presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235056972" stop="1543235056972" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235058696" stop="1543235058696" status="passed">
+                    <name>logStep[took the failed submoduleAd_Airpollution screenshot]</name>
+                    <title>took the failed submoduleAd_Airpollution screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="cd0b2ab5-b9a8-450d-8cbb-859753567b87-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Deatail_Airpollution_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543234980131" stop="1543235122249" status="passed">
+            <name>Extended_Deatail_Airpollution_Ad</name>
+            <title>Validating Extended Airpollution page Ad</title>
+            <steps>
+                <step start="1543234989815" stop="1543234989815" status="passed">
+                    <name>logStep[Checking the  Extended Deatail Airpollution ad is presnted or not]</name>
+                    <title>Checking the  Extended Deatail Airpollution ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543234989815" stop="1543234989815" status="passed">
+                    <name>logStep[Checking for Air pollution Submodule ad]</name>
+                    <title>Checking for Air pollution Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235055093" stop="1543235055093" status="passed">
+                    <name>logStep[Airpollution page ad is not presented on the screen]</name>
+                    <title>Airpollution page ad is not presented on the screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235056972" stop="1543235056972" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235058696" stop="1543235058696" status="passed">
+                    <name>logStep[took the failed submoduleAd_Airpollution screenshot]</name>
+                    <title>took the failed submoduleAd_Airpollution screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="cd0b2ab5-b9a8-450d-8cbb-859753567b87-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Deatail_Airpollution_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543235122579" stop="1543235273053" status="passed">
+            <name>Extended_Detailed_NewsPage_Ad</name>
+            <title>Validating Extended News page Ad</title>
+            <steps>
+                <step start="1543235138139" stop="1543235138139" status="passed">
+                    <name>logStep[Checking the  Extended Deatail News Page ad is presnted or not]</name>
+                    <title>Checking the  Extended Deatail News Page ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235138140" stop="1543235138140" status="passed">
+                    <name>logStep[Checking for News Submodule ad]</name>
+                    <title>Checking for News Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235203941" stop="1543235203941" status="passed">
+                    <name>logStep[Newssubmodule ad not present]</name>
+                    <title>Newssubmodule ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235206450" stop="1543235206450" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235208848" stop="1543235208848" status="passed">
+                    <name>logStep[took the failed submoduleAd_News screenshot]</name>
+                    <title>took the failed submoduleAd_News screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="4bb6f2ea-378f-4341-b6a7-297f25c63d2a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Detailed_NewsPage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543235122579" stop="1543235273053" status="passed">
+            <name>Extended_Detailed_NewsPage_Ad</name>
+            <title>Validating Extended News page Ad</title>
+            <steps>
+                <step start="1543235138139" stop="1543235138139" status="passed">
+                    <name>logStep[Checking the  Extended Deatail News Page ad is presnted or not]</name>
+                    <title>Checking the  Extended Deatail News Page ad is presnted or not</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235138140" stop="1543235138140" status="passed">
+                    <name>logStep[Checking for News Submodule ad]</name>
+                    <title>Checking for News Submodule ad</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235203941" stop="1543235203941" status="passed">
+                    <name>logStep[Newssubmodule ad not present]</name>
+                    <title>Newssubmodule ad not present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235206450" stop="1543235206450" status="passed">
+                    <name>logStep[Taking screenshot]</name>
+                    <title>Taking screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543235208848" stop="1543235208848" status="passed">
+                    <name>logStep[took the failed submoduleAd_News screenshot]</name>
+                    <title>took the failed submoduleAd_News screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Screenshot on failure" source="4bb6f2ea-378f-4341-b6a7-297f25c63d2a-attachment.png" type="image/png"/>
+            </attachments>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Extended_Detailed_NewsPage_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="1542@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

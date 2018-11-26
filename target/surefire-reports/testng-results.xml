@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="373222" started-at="2018-11-14T15:20:59Z" finished-at="2018-11-14T15:27:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="373222" started-at="2018-11-14T15:20:59Z" finished-at="2018-11-14T15:27:12Z">
+      <class name="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Before_Test" is-config="true" duration-ms="164011" started-at="2018-11-14T20:50:59Z" finished-at="2018-11-14T20:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test -->
+        <test-method status="PASS" signature="Validating_Trending_page_Ad()[pri:1, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Validating_Trending_page_Ad" duration-ms="80432" started-at="2018-11-14T20:53:43Z" finished-at="2018-11-14T20:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_Trending_page_Ad -->
+        <test-method status="PASS" signature="Validating_feed1()[pri:2, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Validating_feed1" duration-ms="17042" started-at="2018-11-14T20:55:04Z" finished-at="2018-11-14T20:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed1 -->
+        <test-method status="PASS" signature="Validating_feed2()[pri:3, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Validating_feed2" duration-ms="16919" started-at="2018-11-14T20:55:21Z" finished-at="2018-11-14T20:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed2 -->
+        <test-method status="PASS" signature="Validating_feed3()[pri:3, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Validating_feed3" duration-ms="16715" started-at="2018-11-14T20:55:38Z" finished-at="2018-11-14T20:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed3 -->
+        <test-method status="PASS" signature="Validating_feed4()[pri:5, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Validating_feed4" duration-ms="13155" started-at="2018-11-14T20:55:54Z" finished-at="2018-11-14T20:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validating_feed4 -->
+        <test-method status="PASS" signature="Extended_hourly_page_Ad()[pri:6, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Extended_hourly_page_Ad" duration-ms="17755" started-at="2018-11-14T20:56:07Z" finished-at="2018-11-14T20:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_hourly_page_Ad -->
+        <test-method status="PASS" signature="Extended_Daily_page_Ad()[pri:7, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Extended_Daily_page_Ad" duration-ms="25325" started-at="2018-11-14T20:56:25Z" finished-at="2018-11-14T20:56:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Daily_page_Ad -->
+        <test-method status="PASS" signature="Extended_Maps_Radar_page_Ad()[pri:8, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="Extended_Maps_Radar_page_Ad" duration-ms="21823" started-at="2018-11-14T20:56:51Z" finished-at="2018-11-14T20:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Maps_Radar_page_Ad -->
+        <test-method status="PASS" signature="End_Test()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@4f67e3df]" name="End_Test" is-config="true" duration-ms="0" started-at="2018-11-14T20:57:12Z" finished-at="2018-11-14T20:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End_Test -->
+      </class> <!-- ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

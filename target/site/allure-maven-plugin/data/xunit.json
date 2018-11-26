@@ -1,0 +1,115 @@
+{
+  "time" : {
+    "start" : 1542209023983,
+    "stop" : 1542209232864,
+    "duration" : 208881
+  },
+  "testSuites" : [ {
+    "uid" : "910a07f4344b72fc",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test",
+    "time" : {
+      "start" : 1542209023983,
+      "stop" : 1542209232864,
+      "duration" : 208881
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "fe7577c84b8521e6",
+      "name" : "Validating_Trending_page_Ad",
+      "title" : "Validating trending page ad",
+      "time" : {
+        "start" : 1542209023983,
+        "stop" : 1542209104123,
+        "duration" : 80140
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f130256051000ca6",
+      "name" : "Validating_feed1",
+      "title" : "Validating feed_1 Ad call",
+      "time" : {
+        "start" : 1542209104128,
+        "stop" : 1542209121169,
+        "duration" : 17041
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c2c358d289b0936e",
+      "name" : "Validating_feed2",
+      "title" : "Validating feed_2 Ad call",
+      "time" : {
+        "start" : 1542209121170,
+        "stop" : 1542209138088,
+        "duration" : 16918
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "26ed7b235948267f",
+      "name" : "Validating_feed3",
+      "title" : "Validating feed_3 Ad call",
+      "time" : {
+        "start" : 1542209138090,
+        "stop" : 1542209154803,
+        "duration" : 16713
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f9bc20703f9510b4",
+      "name" : "Validating_feed4",
+      "title" : "Validating feed_2 Ad call",
+      "time" : {
+        "start" : 1542209154805,
+        "stop" : 1542209167959,
+        "duration" : 13154
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d9e6b4e3bc4b916e",
+      "name" : "Extended_hourly_page_Ad",
+      "title" : "Validating Extended hourly page Ad",
+      "time" : {
+        "start" : 1542209167961,
+        "stop" : 1542209185715,
+        "duration" : 17754
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "1d70ce70ab0343a6",
+      "name" : "Extended_Daily_page_Ad",
+      "title" : "Validating Extended Daily page Ad",
+      "time" : {
+        "start" : 1542209185717,
+        "stop" : 1542209211040,
+        "duration" : 25323
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d6cb10e0839601f4",
+      "name" : "Extended_Maps_Radar_page_Ad",
+      "title" : "Validating Extended Maps&Radar page Ad",
+      "time" : {
+        "start" : 1542209211043,
+        "stop" : 1542209232864,
+        "duration" : 21821
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

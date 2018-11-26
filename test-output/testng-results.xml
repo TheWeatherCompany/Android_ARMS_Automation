@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1219218" started-at="2018-11-26T12:07:33Z" finished-at="2018-11-26T12:27:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1219218" started-at="2018-11-26T12:07:33Z" finished-at="2018-11-26T12:27:53Z">
+      <class name="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI">
+        <test-method status="PASS" signature="Before_Test()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Before_Test" is-config="true" duration-ms="163622" started-at="2018-11-26T17:37:33Z" finished-at="2018-11-26T17:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test -->
+        <test-method status="PASS" signature="Extended_Today_datailpage_Ad()[pri:9, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_Today_datailpage_Ad" duration-ms="97964" started-at="2018-11-26T17:40:17Z" finished-at="2018-11-26T17:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Today_datailpage_Ad -->
+        <test-method status="PASS" signature="Extended_Deatail_MapsPage_Ad()[pri:10, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_Deatail_MapsPage_Ad" duration-ms="108447" started-at="2018-11-26T17:41:55Z" finished-at="2018-11-26T17:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Deatail_MapsPage_Ad -->
+        <test-method status="PASS" signature="Extended_Boat_beach_Ad()[pri:11, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_Boat_beach_Ad" duration-ms="169664" started-at="2018-11-26T17:43:43Z" finished-at="2018-11-26T17:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Boat_beach_Ad -->
+        <test-method status="PASS" signature="Extended_Runningpage_Ad()[pri:12, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_Runningpage_Ad" duration-ms="149954" started-at="2018-11-26T17:46:33Z" finished-at="2018-11-26T17:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Runningpage_Ad -->
+        <test-method status="PASS" signature="Extended_ColdFlu_Ad()[pri:13, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_ColdFlu_Ad" duration-ms="85663" started-at="2018-11-26T17:49:03Z" finished-at="2018-11-26T17:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_ColdFlu_Ad -->
+        <test-method status="PASS" signature="Extended_Allergy_Ad()[pri:14, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_Allergy_Ad" duration-ms="150603" started-at="2018-11-26T17:50:29Z" finished-at="2018-11-26T17:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Allergy_Ad -->
+        <test-method status="PASS" signature="Extended_Deatail_Airpollution_Ad()[pri:15, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_Deatail_Airpollution_Ad" duration-ms="142434" started-at="2018-11-26T17:52:59Z" finished-at="2018-11-26T17:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Deatail_Airpollution_Ad -->
+        <test-method status="PASS" signature="Extended_Detailed_NewsPage_Ad()[pri:16, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="Extended_Detailed_NewsPage_Ad" duration-ms="150802" started-at="2018-11-26T17:55:22Z" finished-at="2018-11-26T17:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extended_Detailed_NewsPage_Ad -->
+        <test-method status="PASS" signature="End_Test()[pri:0, instance:ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26]" name="End_Test" is-config="true" duration-ms="1" started-at="2018-11-26T17:57:53Z" finished-at="2018-11-26T17:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End_Test -->
+      </class> <!-- ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

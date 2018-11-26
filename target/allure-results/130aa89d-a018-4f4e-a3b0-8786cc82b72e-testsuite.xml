@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1543237137318" stop="1543237429813" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1543237302426" stop="1543237384554" status="passed">
+            <name>Validating_Trending_page_Ad</name>
+            <steps>
+                <step start="1543237302465" stop="1543237302466" status="passed">
+                    <name>logStep[Validating Trending page Ad TestCase Started]</name>
+                    <title>Validating Trending page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237302467" stop="1543237302467" status="passed">
+                    <name>logStep[Clearing the charles session]</name>
+                    <title>Clearing the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237310346" stop="1543237310346" status="passed">
+                    <name>logStep[Cleared the charles session]</name>
+                    <title>Cleared the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237310347" stop="1543237310347" status="passed">
+                    <name>logStep[Clicking the trending elemeent]</name>
+                    <title>Clicking the trending elemeent</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237373834" stop="1543237373834" status="passed">
+                    <name>logStep[Clicked the trending elemeent]</name>
+                    <title>Clicked the trending elemeent</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237384551" stop="1543237384551" status="passed">
+                    <name>logStep[Validating Trending page Ad TestCase End]</name>
+                    <title>Validating Trending page Ad TestCase End</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_Trending_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2058@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543237302426" stop="1543237384554" status="passed">
+            <name>Validating_Trending_page_Ad</name>
+            <steps>
+                <step start="1543237302465" stop="1543237302466" status="passed">
+                    <name>logStep[Validating Trending page Ad TestCase Started]</name>
+                    <title>Validating Trending page Ad TestCase Started</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237302467" stop="1543237302467" status="passed">
+                    <name>logStep[Clearing the charles session]</name>
+                    <title>Clearing the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237310346" stop="1543237310346" status="passed">
+                    <name>logStep[Cleared the charles session]</name>
+                    <title>Cleared the charles session</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237310347" stop="1543237310347" status="passed">
+                    <name>logStep[Clicking the trending elemeent]</name>
+                    <title>Clicking the trending elemeent</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237373834" stop="1543237373834" status="passed">
+                    <name>logStep[Clicked the trending elemeent]</name>
+                    <title>Clicked the trending elemeent</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1543237384551" stop="1543237384551" status="passed">
+                    <name>logStep[Validating Trending page Ad TestCase End]</name>
+                    <title>Validating Trending page Ad TestCase End</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_Trending_page_Ad"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2058@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543237384561" stop="1543237429807" status="broken">
+            <name>Validating_Health_Activities</name>
+            <title>Validating Health&amp;Activities Ad call</title>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_Health_Activities"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2058@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543237384561" stop="1543237429807" status="broken">
+            <name>Validating_Health_Activities</name>
+            <title>Validating Health&amp;Activities Ad call</title>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
+                <label name="testMethod" value="Validating_Health_Activities"/>
+                <label name="host" value="Macminis-Mac-mini.local"/>
+                <label name="thread" value="2058@Macminis-Mac-mini.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1543237137318" stop="1543237429809" status="broken">
+            <name>Default suite : Default test</name>
+            <title>Default suite : Default test</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
