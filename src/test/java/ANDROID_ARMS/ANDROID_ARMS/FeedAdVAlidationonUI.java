@@ -151,7 +151,7 @@ extends Drivers
 		AppFunctions.click_home_element();
 		System.out.println("====== Validating Extended Maps&Radar page Ad TestCase End =======");    
 
-	}*
+	}*/
 
 	//Validating Health&Activities Module page Ads
 	//Validating Boat&Beach Module page Ad
