@@ -664,9 +664,11 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed Today submodule ad");
 			System.out.println("took the failed submoduleAd_Today screenshot");
-			softAssert.fail("Today submodule ad is not  present");
+			Assert.fail("Today submodule ad is not  present");
 		}
-		
+		finally {
+			AppFunctions.clickOnBackArrowElement();
+		}
 		
 	}
 	public static void Check_submodules_Hourly_ad() throws Exception

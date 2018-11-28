@@ -218,7 +218,7 @@ extends Drivers
 		AppFunctions.click_Todaydetails_element();			
 		logStep("Checking the  Extended today datail page ad is presnted or not");
 		AppiumFunctions.Check_submodules_Today_ad();
-		AppFunctions.clickOnBackArrowElement();
+		//AppFunctions.clickOnBackArrowElement();
 		System.out.println("====== Validating Extended today datail page Ad TestCase End =======");    
 	}
 	@Test(priority =10,enabled = true)
@@ -255,8 +255,7 @@ extends Drivers
 		logStep("Checking the  Extended Deatail News Page ad is presnted or not");
 		AppiumFunctions.Check_submodules_news_ad();
 		AppFunctions.clickOnBackArrowElement();
-		System.out.println("====== Validating Extended Deatailnews page Ad TestCase End =======");
-		AppiumFunctions.softAssert.fail();    
+		System.out.println("====== Validating Extended Deatailnews page Ad TestCase End =======");    
 	}
 	/*//Validating feed1 Ad
 	    @Test(priority =1,enabled = true)
