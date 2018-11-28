@@ -1754,22 +1754,22 @@ catch(Exception e)
 	public static void click_Boat_Beach_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Boat & Beach").click();
+		Ad.findElementByName("Currently High Tide").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_1_title").click();
+		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
 		Thread.sleep(3000);
 		}
 	}
 	public static void click_Allergy_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Allergy").click();
+		Ad.findElementByName("Breathing is good in your area").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_4_title").click();
+		Ad.findElementById("com.weather.Weather:id/index_1_description").click();
 		Thread.sleep(3000);
 		}
 		
@@ -1838,11 +1838,11 @@ catch(Exception e)
 	}
 	public static void click_cold_Flu_element() throws Exception
 	{try {
-		Ad.findElementByName("Cold & Flu").click();
+		Ad.findElementByName("Low").click();
 		Thread.sleep(3000);
 	}
 	catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_3_title").click();
+		Ad.findElementById("com.weather.Weather:id/index_4_description").click();
 		Thread.sleep(3000);
 	
 	}
@@ -1851,11 +1851,11 @@ catch(Exception e)
 	public static void click_Running_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Running").click();
+		Ad.findElementByName("Bad running weather today. Better tomorrow.").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_2_title").click();
+		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
 		Thread.sleep(3000);
 		}
 	}

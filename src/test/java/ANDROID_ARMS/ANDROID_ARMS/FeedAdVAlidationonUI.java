@@ -173,6 +173,7 @@ extends Drivers
 				@Title("Validating Extended Running page Ad")
 				public void Extended_Runningpage_Ad() throws Exception
 				{
+				    AppFunctions.SwipeUp_Counter(2);
 					System.out.println("====== Validating Extended Running page Ad TestCase Started =======");
 					AppFunctions.click_Running_element();
 					AppFunctions.SwipeUp_Counter(3);
