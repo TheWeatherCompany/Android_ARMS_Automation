@@ -165,7 +165,7 @@ extends Drivers
 			AppFunctions.SwipeUp_Counter(3);
 			logStep("Checking the boatbeach bb ad is presnted or not");
 			AppiumFunctions.Check_boatbeach_bb_ad();
-			AppFunctions.clickOnBackArrowElement();
+			//AppFunctions.clickOnBackArrowElement();
 			System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
 		}
 		        //Validating Running Module page Ad
@@ -178,7 +178,7 @@ extends Drivers
 					AppFunctions.SwipeUp_Counter(3);
 					logStep("Checking the Running bb ad is presnted or not");
 					AppiumFunctions.Check_Running_bb_ad();
-					AppFunctions.clickOnBackArrowElement();
+					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 				}
 				//Validating Cold_flu Module page Ad
@@ -191,7 +191,7 @@ extends Drivers
 					AppFunctions.SwipeUp_Counter(2);
 					logStep("Checking the ColdFlu bb ad is presnted or not");
 					AppiumFunctions.Check_ColdFlu_bb_ad();
-					AppFunctions.clickOnBackArrowElement();
+					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 				}
 				//Validating Allergy Module page Ad
@@ -205,7 +205,7 @@ extends Drivers
 					AppFunctions.SwipeUp_Counter(3);
 					logStep("Checking the Allergy bb ad is presnted or not");
 					AppiumFunctions.Check_Allergy_bb_ad();
-					AppFunctions.clickOnBackArrowElement();
+					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Allergy page Ad TestCase End =======");    
 				}
 	@Test(priority =9,enabled = true)
@@ -230,7 +230,7 @@ extends Drivers
 		AppFunctions.click_Mapsdetails_element();				
 		logStep("Checking the  Extended Deatail MapsPage ad is presnted or not");
 		AppiumFunctions.Check_submodules_Maps_ad();
-		AppFunctions.clickOnBackArrowElement();
+		//AppFunctions.clickOnBackArrowElement();
 		System.out.println("====== Validating Extended Deatail MapsPage Ad TestCase End =======");    
 	}
 	@Test(priority =15,enabled = true)
@@ -254,7 +254,7 @@ extends Drivers
 		AppFunctions.click_news_element();				
 		logStep("Checking the  Extended Deatail News Page ad is presnted or not");
 		AppiumFunctions.Check_submodules_news_ad();
-		AppFunctions.clickOnBackArrowElement();
+		//AppFunctions.clickOnBackArrowElement();
 		System.out.println("====== Validating Extended Deatailnews page Ad TestCase End =======");    
 	}
 	/*//Validating feed1 Ad

@@ -785,10 +785,12 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed submoduleAd_Maps screenshot");
 			System.out.println("took the failed submoduleAd_Maps screenshot");
-			softAssert.fail("Maps submodule ad is not  present");
+			Assert.fail("Maps submodule ad is not  present");
 		}
 		
-		
+		finally {
+			AppFunctions.clickOnBackArrowElement();
+		}
 	}
 	public static void Check_submodules_Airpollution_ad() throws Exception
 	{ 
@@ -824,7 +826,10 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed submoduleAd_Airpollution screenshot");
 			System.out.println("took the failed submoduleAd_Airpollution screenshot");
-			softAssert.fail("Airpollution submodule ad is not  present");
+			Assert.fail("Airpollution submodule ad is not  present");
+		}
+		finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
 		
 	}
@@ -1222,9 +1227,11 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed submoduleAd_News screenshot");
 			System.out.println("took the failed submoduleAd_News screenshot");
-			softAssert.fail("News submodule ad is not  present");
+			Assert.fail("News submodule ad is not  present");
 		}
-		
+		finally {
+			AppFunctions.clickOnBackArrowElement();
+		}
 	}
 	public static void Check_nativeBb() throws Exception
 	{ 
@@ -1332,7 +1339,10 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed boatbeach bb screen shot");
 			System.out.println("took the failed boatbeach bb screen shot");
-			softAssert.fail("boatbeach bb ad not present");
+			Assert.fail("boatbeach bb ad not present");
+		}
+		finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
 	}
 	public static void Check_Running_bb_ad() throws Exception
@@ -1359,7 +1369,10 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed Running bb screen shot");
 			System.out.println("took the failed Running bb screen shot");
-			softAssert.fail("Running bb ad not present");
+			Assert.fail("Running bb ad not present");
+		}
+		finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
 	}
 	public static void Check_ColdFlu_bb_ad() throws Exception
@@ -1386,7 +1399,10 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed ColdFlu bb screen shot");
 			System.out.println("took the failed ColdFlu bb screen shot");
-			softAssert.fail("ColdFlu bb ad not present");
+		    Assert.fail("ColdFlu bb ad not present");
+		}
+		finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
 	}
 	public static void Check_Allergy_bb_ad() throws Exception
@@ -1415,5 +1431,7 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed Allergy bb screen shot");
 			softAssert.fail("Allergy bb ad not present");
 		}
-	}
+	 finally{
+			AppFunctions.clickOnBackArrowElement();
+		}
 }
