@@ -567,7 +567,10 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed Airpollution feed card screen shot");
 			System.out.println("took the failed Airpollution feed card screen shot");
-			softAssert.fail("Airpollution feed card ad not present");
+		Assert.fail("Airpollution feed card ad not present");
+		} 
+	finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
 	}
 	public static void Check_feed5_ad() throws Exception
@@ -1442,5 +1445,5 @@ public class AppiumFunctions extends Drivers{
 		}
 	 finally{
 			AppFunctions.clickOnBackArrowElement();
-		}
+	}	}
 }
