@@ -242,7 +242,7 @@ extends Drivers
 		AppFunctions.click_Airpollution_element();				
 		logStep("Checking the  Extended Deatail Airpollution ad is presnted or not");
 		AppiumFunctions.Check_submodules_Airpollution_ad();
-		AppFunctions.clickOnBackArrowElement();
+		//AppFunctions.clickOnBackArrowElement();
 		System.out.println("====== Validating Extended Deatail Airpollution Ad TestCase End =======");    
 	}
 	@Test(priority =16,enabled = true)

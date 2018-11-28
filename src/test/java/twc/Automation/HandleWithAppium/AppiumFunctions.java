@@ -1025,6 +1025,9 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed Allergy Module BigBanner ad");
 			Assert.fail("Allergy Module BigBanner adnot present");
 		}
+	finally {
+			AppFunctions.clickOnBackArrowElement();
+		}
 	}
 
 	public static void Check_Cold_Flu_BigbannertAd() throws Exception
@@ -1051,6 +1054,9 @@ public class AppiumFunctions extends Drivers{
 			//screenShot_fail("Cold_Flu Module BigBanner ad");
 			System.out.println("took the failed Cold_Flu Module BigBanner ad");
 			Assert.fail("Cold_Flu Module BigBanner ad not present");
+		}
+		finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
 	}
 	public static void Clickon_Back_Button() throws Exception 
