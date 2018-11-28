@@ -155,7 +155,7 @@ extends Drivers
 
 	//Validating Health&Activities Module page Ads
 	//Validating Boat&Beach Module page Ad
-	@Test(priority =11,enabled = true)
+	@Test(priority =13,enabled = true)
 		@Title("Validating Extended Boat&Beach page Ad")
 		public void Extended_Boat_beach_Ad() throws Exception
 		{
@@ -195,7 +195,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 				}
 				//Validating Allergy Module page Ad
-				@Test(priority =13,enabled = true)
+				@Test(priority =11,enabled = true)
 				@Title("Validating Extended Allergy page Ad")
 				public void Extended_Allergy_Ad() throws Exception
 				{
