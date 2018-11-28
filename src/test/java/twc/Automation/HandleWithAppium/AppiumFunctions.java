@@ -1305,8 +1305,11 @@ public class AppiumFunctions extends Drivers{
 	//screenShot_fail("feed1");
 	ScreenShot("trendingpage","Failed");
 	System.out.println("took the failed trendingpage screen shot");
-	softAssert.fail("trendingpage ad not present");
+	Assert.fail("trendingpage ad not present");
 	}
+	  finally {
+			AppFunctions.clickOnBackArrowElement();
+		}
 	} 
 	public static void Check_boatbeach_bb_ad() throws Exception
 	{ 
