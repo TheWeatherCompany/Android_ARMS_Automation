@@ -569,7 +569,7 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed Airpollution feed card screen shot");
 		Assert.fail("Airpollution feed card ad not present");
 		} 
-	finally {
+	finally{
 			AppFunctions.clickOnBackArrowElement();
 		}
 	}
@@ -1030,7 +1030,7 @@ public class AppiumFunctions extends Drivers{
 		}
 	finally {
 			AppFunctions.clickOnBackArrowElement();
-		}}
+		}
 	}
 
 	public static void Check_Cold_Flu_BigbannertAd() throws Exception
@@ -1441,7 +1441,7 @@ public class AppiumFunctions extends Drivers{
 			attachScreen();
 			logStep("took the failed Allergy bb screen shot");
 			System.out.println("took the failed Allergy bb screen shot");
-			softAssert.fail("Allergy bb ad not present");
+			Assert.fail("Allergy bb ad not present");
 		}
 	 finally{
 			AppFunctions.clickOnBackArrowElement();
