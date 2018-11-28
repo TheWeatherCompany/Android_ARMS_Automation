@@ -182,7 +182,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 				}
 				//Validating Cold_flu Module page Ad
-				@Test(priority =14,enabled = true)
+				/*@Test(priority =14,enabled = true)
 				@Title("Validating Extended Cold_flu page Ad")
 				public void Extended_ColdFlu_Ad() throws Exception
 				{
@@ -193,7 +193,7 @@ extends Drivers
 					AppiumFunctions.Check_ColdFlu_bb_ad();
 					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
-				}
+				}*/
 				//Validating Allergy Module page Ad
 				@Test(priority =11,enabled = true)
 				@Title("Validating Extended Allergy page Ad")
