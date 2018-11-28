@@ -1776,8 +1776,14 @@ catch(Exception e)
 	}
 	public static void click_Mapsdetails_element() throws Exception
 	{
-		Ad.findElementById("com.weather.Weather:id/mapSmall").click();
+		try {
+		Ad.findElementById("com.weather.Weather:id/details_button").click();
 		Thread.sleep(3000);		
+		}
+		catch(Exception e) {
+			Ad.findElementById("com.weather.Weather:id/mapBig").click();
+			Thread.sleep(3000);
+		}	
 	}
 	public static void click_Airpollution_element() throws Exception
 	{

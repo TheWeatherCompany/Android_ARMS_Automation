@@ -650,6 +650,7 @@ public class AppiumFunctions extends Drivers{
 				System.out.println("Today submodule ad present");
 				//System.out.println("Hourly submodule ad present ad present and size is"+submodulead.getSize());
 				ScreenShot("Today ad","Passed");
+				attachScreen();
 				logStep("took the passed submoduleAd_Today screenshot");
 				System.out.println("took the submoduleAd_Today screenshot");
 			}		    
@@ -768,6 +769,7 @@ public class AppiumFunctions extends Drivers{
 				System.out.println("Maps submodule ad present");
 				//System.out.println("Maps submodule ad present ad present and size is"+submodulead.getSize());			
 				ScreenShot("Maps ad","Passed");
+				attachScreen();
 				System.out.println("took the passed submoduleAd_Maps screenshot");
 				System.out.println("took the submoduleAd_Maps screenshot");
 			}	
@@ -807,6 +809,7 @@ public class AppiumFunctions extends Drivers{
 				System.out.println("Air pollution submodule ad present");
 				//System.out.println("Maps submodule ad present ad present and size is"+submodulead.getSize());			
 				ScreenShot("Airpollution ad","Passed");
+				attachScreen();
 				System.out.println("took the passed submoduleAd_Airpollution screenshot");
 				System.out.println("took the submoduleAd_Airpollution screenshot");
 			}		    
@@ -1204,6 +1207,7 @@ public class AppiumFunctions extends Drivers{
 				System.out.println("News submodule ad present");
 				//System.out.println("News submodule ad present ad present and size is"+submodulead.getSize());
 				ScreenShot("News ad","Passed");
+				attachScreen();
 				logStep("took the passed submoduleAd_News screenshot");
 				System.out.println("took the submoduleAd_News screenshot");
 			}		    
@@ -1315,6 +1319,7 @@ public class AppiumFunctions extends Drivers{
 				System.out.println("boatbeach bb ad present");
 				//System.out.println("fee4 ad present and size is"+feedad.getSize());
 				ScreenShot("boatbeach bb","Passed");
+				attachScreen();
 				System.out.println("took the boatbeach bb screenshot");
 			}		    		  	
 		}
@@ -1341,6 +1346,7 @@ public class AppiumFunctions extends Drivers{
 				logStep("Running bb ad present");
 				System.out.println("Running bb ad present");
 				ScreenShot("Running bb","Passed");
+				attachScreen();
 				System.out.println("took the Running bb screenshot");
 			}		    		  	
 		}
@@ -1367,6 +1373,7 @@ public class AppiumFunctions extends Drivers{
 				logStep("ColdFlu bb ad present");
 				System.out.println("ColdFlu bb ad present");
 				ScreenShot("ColdFlu bb","Passed");
+				attachScreen();
 				System.out.println("took the ColdFlu bb screenshot");
 			}		    		  	
 		}
@@ -1393,6 +1400,7 @@ public class AppiumFunctions extends Drivers{
 				logStep("Allergy bb ad present");
 				System.out.println("Allergy bb ad present");
 				ScreenShot("Allergy bb","Passed");
+				attachScreen();
 				System.out.println("took the Allergy bb screenshot");
 			}		    		  	
 		}
