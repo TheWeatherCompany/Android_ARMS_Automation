@@ -1027,7 +1027,7 @@ public class AppiumFunctions extends Drivers{
 		}
 	finally {
 			AppFunctions.clickOnBackArrowElement();
-		}
+		}}
 	}
 
 	public static void Check_Cold_Flu_BigbannertAd() throws Exception
