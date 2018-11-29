@@ -189,7 +189,7 @@ extends Drivers
 				   
 					System.out.println("====== Validating Extended Cold_flu page Ad TestCase Started =======");
 					AppFunctions.click_cold_Flu_element();
-					AppFunctions.SwipeUp_Counter(2);
+					AppFunctions.SwipeUp_Counter(1);
 					logStep("Checking the ColdFlu bb ad is presnted or not");
 					AppiumFunctions.Check_ColdFlu_bb_ad();
 					//AppFunctions.clickOnBackArrowElement();
@@ -203,7 +203,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Allergy page Ad TestCase Started =======");
 					 AppFunctions.SwipeUp_Counter(2);
 					AppFunctions.click_Allergy_element();
-					AppFunctions.SwipeUp_Counter(3);
+					AppFunctions.SwipeUp_Counter(2);
 					logStep("Checking the Allergy bb ad is presnted or not");
 					AppiumFunctions.Check_Allergy_bb_ad();
 					//AppFunctions.clickOnBackArrowElement();
