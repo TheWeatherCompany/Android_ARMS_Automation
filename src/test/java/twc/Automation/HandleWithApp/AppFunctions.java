@@ -1758,7 +1758,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
 		Thread.sleep(3000);
 		}
 	}
@@ -1769,7 +1769,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_1_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_4_description").click();
 		Thread.sleep(3000);
 		}
 		
@@ -1842,7 +1842,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 	}
 	catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_4_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
 		Thread.sleep(3000);
 	
 	}
@@ -1851,11 +1851,11 @@ catch(Exception e)
 	public static void click_Running_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Bad running weather today. Better tomorrow.").click();
+		Ad.findElementByName("Bad running weather right now. Better later today.").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_1_description").click();
 		Thread.sleep(3000);
 		}
 	}
