@@ -1754,7 +1754,7 @@ catch(Exception e)
 	public static void click_Boat_Beach_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Currently High Tide").click();
+		Ad.findElementByName("Currently Low Tide").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
@@ -1769,7 +1769,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_4_description").click();
 		Thread.sleep(3000);
 		}
 		
@@ -1842,7 +1842,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 	}
 	catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_4_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
 		Thread.sleep(3000);
 	
 	}
@@ -1855,7 +1855,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
 		Thread.sleep(3000);
 		}
 	}
