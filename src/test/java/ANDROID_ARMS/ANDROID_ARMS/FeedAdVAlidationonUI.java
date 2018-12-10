@@ -208,7 +208,7 @@ extends Drivers
 					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Allergy page Ad TestCase End =======");    
 				}
-		@Test(priority =8,enabled = true)
+		@Test(priority =1,enabled = true)
 	public void Validating_Home_page_Ad() throws Exception
 	{
 	    logStep("Validating Home page Ad TestCase Started");
@@ -221,7 +221,47 @@ extends Drivers
 		System.out.println("====== Validating Home page Ad TestCase End =======");
 		logStep("Validating Home page Ad TestCase End");
 
-	}		
+	}
+	//Validating Extended hourly page Ad
+		@Test(priority =2,enabled = true)
+		@Title("Validating Extended hourly page Ad")
+		public void Extended_hourly_page_Ad() throws Exception
+		{
+			System.out.println("====== Validating Extended Hourly page Ad TestCase Started =======");
+			AppFunctions.click_hourly_element();
+			logStep("Checking the hourly ad is presnted or not");
+			AppiumFunctions.Check_submodules_Hourly_ad(); 		
+			AppFunctions.click_home_element(); 
+			System.out.println("====== Validating Extended Hourly page Ad TestCase End =======");
+
+		}
+
+		//Validating Extended Daily page Ad
+		@Test(priority =3,enabled = true)
+		@Title("Validating Extended Daily page Ad")
+		public void Extended_Daily_page_Ad() throws Exception
+		{
+			System.out.println("====== Validating Extended Daily page Ad TestCase Started =======");
+			AppFunctions.click_daily_element();
+			logStep("Checking the daily ad is presnted or not");
+			AppiumFunctions.Check_submodules_Daily_ad();
+			AppFunctions.click_home_element(); 
+			System.out.println("====== Validating Extended Daily page Ad TestCase End =======");    
+		}
+
+		//Validating Extended Maps&Radar page Ad
+		@Test(priority =4,enabled = true)
+		@Title("Validating Extended Maps&Radar page Ad")
+		public void Extended_Maps_Radar_page_Ad() throws Exception
+		{
+			System.out.println("====== Validating Extended Maps&Radar page Ad TestCase Started =======");
+			AppFunctions.click_radar_element();
+			logStep("Checking the Radar ad is presnted or not");
+			AppiumFunctions.Check_submodules_Maps_ad();
+			AppFunctions.click_home_element();
+			System.out.println("====== Validating Extended Maps&Radar page Ad TestCase End =======");    
+
+		}		
 
 
 	@Test(priority =9,enabled = true)
