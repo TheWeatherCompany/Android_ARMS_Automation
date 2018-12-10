@@ -1740,7 +1740,7 @@ catch(Exception e)
 	}
 	public static void click_radar_element() throws Exception
 	{
-	 List<WebElement> ele=Ad.findElementsById("com.weather.Weather:id/smallLabel");
+	List<WebElement> ele=Ad.findElementsById("com.weather.Weather:id/smallLabel");
 	 ele.get(2).click();
      Thread.sleep(2000);
 	}

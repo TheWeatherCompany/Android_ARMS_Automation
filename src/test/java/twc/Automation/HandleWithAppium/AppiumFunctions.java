@@ -676,6 +676,7 @@ public class AppiumFunctions extends Drivers{
 	}
 	public static void Check_submodules_Hourly_ad() throws Exception
 	{ 
+ 
 		try
 		{
 			logStep("Checking for Hourly Submodule ad");
@@ -694,6 +695,7 @@ public class AppiumFunctions extends Drivers{
 				System.out.println("Hourly submodule ad present");
 				//System.out.println("Hourly submodule ad present ad present and size is"+submodulead.getSize());
 				ScreenShot("Hourly ad","Passed");
+				attachScreen();
 				logStep("took the passed submoduleAd_Hourly screenshot");
 				System.out.println("took the submoduleAd_Hourly screenshot");
 			}		    
@@ -709,10 +711,10 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed submoduleAd_Hourly screenshot");
 			Assert.fail("Hourly submodule ad is not  present");
 		}
-		finally{
-			Ad.findElementByClassName("android.widget.ImageButton").click();
-			Thread.sleep(2000);
+		finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
+	
 	}
 	public static void Check_submodules_Daily_ad() throws Exception
 	{ 
@@ -732,6 +734,7 @@ public class AppiumFunctions extends Drivers{
 				System.out.println("Daily submodule ad present");
 				//System.out.println("Daily submodule ad present ad present and size is"+submodulead.getSize());
 				ScreenShot("Daily ad","Passed");
+				attachScreen();
 				logStep("took the submoduleAd_Daily screenshot");
 				System.out.println("took the submoduleAd_Daily screenshot");
 			}		    
@@ -749,10 +752,10 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed submoduleAd_Daily screenshot");
 			Assert.fail("Daily submodule ad is not  present");
 		}
-		finally{
-			Ad.findElementByClassName("android.widget.ImageButton").click();
-			Thread.sleep(2000);
+		finally {
+			AppFunctions.clickOnBackArrowElement();
 		}
+		
 	}
 	public static void Check_submodules_Maps_ad() throws Exception
 	{ 
@@ -790,10 +793,9 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed submoduleAd_Maps screenshot");
 			Assert.fail("Maps submodule ad is not  present");
 		}
-		
 		finally {
 			AppFunctions.clickOnBackArrowElement();
-		}
+		}		
 	}
 	public static void Check_submodules_Airpollution_ad() throws Exception
 	{ 
