@@ -208,12 +208,28 @@ extends Drivers
 					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Allergy page Ad TestCase End =======");    
 				}
+		@Test(priority =8,enabled = true)
+	public void Validating_Home_page_Ad() throws Exception
+	{
+	    logStep("Validating Home page Ad TestCase Started");
+		System.out.println("====== Validating Home page Ad TestCase Started =======");
+		AppFunctions.Kill_Launch_App();
+		logStep("Clearing the charles session");
+		CharlesFunctions.ClearSessions();
+		logStep("Cleared the charles session");
+		AppiumFunctions.Check_Home_ad();
+		System.out.println("====== Validating Home page Ad TestCase End =======");
+		logStep("Validating Home page Ad TestCase End");
+
+	}		
+
+
 	@Test(priority =9,enabled = true)
 	@Title("Validating Extended Today page Ad")
 	public void Extended_Today_datailpage_Ad() throws Exception
 	{
 		System.out.println("====== Validating Extended today datail page testCase Started =======");
-		AppFunctions.Kill_Launch_App();
+		//AppFunctions.Kill_Launch_App();
 		AppFunctions.SwipeUp_Counter(2);
 		AppFunctions.click_Todaydetails_element();			
 		logStep("Checking the  Extended today datail page ad is presnted or not");

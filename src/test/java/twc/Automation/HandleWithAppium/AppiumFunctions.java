@@ -1446,4 +1446,28 @@ public class AppiumFunctions extends Drivers{
 	 finally{
 			AppFunctions.clickOnBackArrowElement();
 	}	}
+public static void Check_Home_ad() throws Exception
+	{  
+	WebElement feedad=null;
+	try{
+	System.out.println("Checking for home page ad");
+	feedad=Ad.findElementByClassName("android.webkit.WebView");
+	Thread.sleep(5000);
+	if(feedad.isDisplayed())
+	{
+	System.out.println("home page ad present");
+	ScreenShot("home page","Passed");
+	attachScreen();
+	System.out.println("took the passed home page screen shot");
+	}    
+	}
+	catch(Exception e)
+	{	
+	ScreenShot("home page","Failed");
+	attachScreen();
+	System.out.println("took the failed home page screen shot");
+	Assert.fail("home page ad not present");
+	}	
+	} 
+
 }
