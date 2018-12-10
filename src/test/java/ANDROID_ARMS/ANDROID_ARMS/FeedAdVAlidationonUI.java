@@ -208,7 +208,7 @@ extends Drivers
 					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Allergy page Ad TestCase End =======");    
 				}
-		@Test(priority =1,enabled = true)
+		@Test(priority =8,enabled = true)
 	public void Validating_Home_page_Ad() throws Exception
 	{
 	    logStep("Validating Home page Ad TestCase Started");
@@ -223,7 +223,7 @@ extends Drivers
 
 	}
 	//Validating Extended hourly page Ad
-		@Test(priority =2,enabled = true)
+		/*@Test(priority =2,enabled = true)
 		@Title("Validating Extended hourly page Ad")
 		public void Extended_hourly_page_Ad() throws Exception
 		{
@@ -261,7 +261,7 @@ extends Drivers
 			AppFunctions.click_home_element();
 			System.out.println("====== Validating Extended Maps&Radar page Ad TestCase End =======");    
 
-		}		
+		}	*/	
 
 
 	@Test(priority =9,enabled = true)
