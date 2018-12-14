@@ -1721,8 +1721,16 @@ catch(Exception e)
 	}
 	public static void click_home_element() throws Exception
 	{
-	Ad.findElementById("com.weather.Weather:id/bottom_nav_home_icon").click();
-	Thread.sleep(2000);
+	try {
+		List<WebElement> ele=Ad.findElementsById("com.weather.Weather:id/icon");
+		ele.get(2).click();
+		Thread.sleep(2000);
+	//Ad.findElementsById("com.weather.Weather:id/icon").get(2).click();
+	}
+	catch(Exception e) {
+		Ad.findElementByAccessibilityId("Personalized home screen").click();
+		Thread.sleep(2000);
+	}
 	}
 	public static void click_hourly_element() throws Exception
 	{
@@ -1741,7 +1749,7 @@ catch(Exception e)
 	public static void click_radar_element() throws Exception
 	{
 	List<WebElement> ele=Ad.findElementsById("com.weather.Weather:id/smallLabel");
-	 ele.get(2).click();
+	 ele.get(3).click();
      Thread.sleep(2000);
 	}
 	
