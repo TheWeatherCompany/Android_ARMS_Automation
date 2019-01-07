@@ -160,6 +160,7 @@ extends Drivers
 		public void Extended_Boat_beach_Ad() throws Exception
 		{
 			System.out.println("====== Validating Extended Boat&Beach page Ad TestCase Started =======");
+			AppFunctions.SwipeUp_Counter(2);	
 			AppFunctions.click_Boat_Beach_element();
 			AppFunctions.SwipeUp_Counter(3);
 			logStep("Checking the boatbeach bb ad is presnted or not");
