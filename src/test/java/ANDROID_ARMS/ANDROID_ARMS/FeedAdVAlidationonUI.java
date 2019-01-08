@@ -169,7 +169,7 @@ extends Drivers
 			System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
 		}
 		        //Validating Running Module page Ad
-				@Test(priority =13,enabled = true)
+				@Test(priority =14,enabled = true)
 				@Title("Validating Extended Running page Ad")
 				public void Extended_Runningpage_Ad() throws Exception
 				{
@@ -183,7 +183,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 				}
 				//Validating Cold_flu Module page Ad
-				@Test(priority =14,enabled = true)
+				@Test(priority =12,enabled = true)
 				@Title("Validating Extended Cold_flu page Ad")
 				public void Extended_ColdFlu_Ad() throws Exception
 				{
@@ -197,7 +197,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 				}
 				//Validating Allergy Module page Ad
-				@Test(priority =12,enabled = true)
+				@Test(priority =13,enabled = true)
 				@Title("Validating Extended Allergy page Ad")
 				public void Extended_Allergy_Ad() throws Exception
 				{
