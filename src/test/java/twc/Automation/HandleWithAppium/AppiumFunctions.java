@@ -1012,7 +1012,8 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("Checking for Allergy module BigBanner ad");
 			Thread.sleep(5000);
 			//WebElement feedad=Ad.findElement(By.xpath("//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]"));
-			WebElement AllergyModfriestad=Ad.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout"));
+			//WebElement AllergyModfriestad=Ad.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout"));
+			WebElement AllergyModfriestad=Ad.findElementByClassName("android.webkit.WebView");
 			Thread.sleep(2000);
 			if(AllergyModfriestad.isDisplayed())
 			{
