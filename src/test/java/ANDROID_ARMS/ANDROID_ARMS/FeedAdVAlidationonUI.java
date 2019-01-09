@@ -197,7 +197,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 				}
 				//Validating Allergy Module page Ad
-				@Test(priority =13,enabled = true)
+				/*@Test(priority =13,enabled = true)
 				@Title("Validating Extended Allergy page Ad")
 				public void Extended_Allergy_Ad() throws Exception
 				{
@@ -208,7 +208,7 @@ extends Drivers
 					AppiumFunctions.Check_Allergy_bb_ad();
 					//AppFunctions.clickOnBackArrowElement();
 					System.out.println("====== Validating Extended Allergy page Ad TestCase End =======");    
-				}
+				}*/
 		@Test(priority =8,enabled = true)
 	public void Validating_Home_page_Ad() throws Exception
 	{
