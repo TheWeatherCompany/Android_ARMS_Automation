@@ -1777,7 +1777,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
 		Thread.sleep(3000);
 		}
 		
@@ -1863,7 +1863,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
 		Thread.sleep(3000);
 		}
 	}
