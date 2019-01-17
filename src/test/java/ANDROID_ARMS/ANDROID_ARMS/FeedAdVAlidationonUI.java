@@ -271,7 +271,7 @@ extends Drivers
 	{
 		System.out.println("====== Validating Extended today datail page testCase Started =======");
 		//AppFunctions.Kill_Launch_App();
-		AppFunctions.SwipeUp_Counter(1);
+		AppFunctions.SwipeUp_Counter(2);
 		AppFunctions.click_Todaydetails_element();			
 		logStep("Checking the  Extended today datail page ad is presnted or not");
 		AppiumFunctions.Check_submodules_Today_ad();
