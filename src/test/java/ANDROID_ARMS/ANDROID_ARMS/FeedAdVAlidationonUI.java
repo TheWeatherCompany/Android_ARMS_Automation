@@ -160,7 +160,7 @@ extends Drivers
 		public void Extended_Boat_beach_Ad() throws Exception
 		{
 			System.out.println("====== Validating Extended Boat&Beach page Ad TestCase Started =======");
-			//AppFunctions.SwipeUp_Counter(2);	
+			AppFunctions.SwipeUp_Counter(2);	
 			AppFunctions.click_Boat_Beach_element();
 			AppFunctions.SwipeUp_Counter(3);
 			logStep("Checking the boatbeach bb ad is presnted or not");
@@ -183,7 +183,7 @@ extends Drivers
 					System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 				}
 				//Validating Cold_flu Module page Ad
-				@Test(priority =12,enabled = true)
+				@Test(priority =13,enabled = true)
 				@Title("Validating Extended Cold_flu page Ad")
 				public void Extended_ColdFlu_Ad() throws Exception
 				{
@@ -271,7 +271,7 @@ extends Drivers
 	{
 		System.out.println("====== Validating Extended today datail page testCase Started =======");
 		//AppFunctions.Kill_Launch_App();
-		AppFunctions.SwipeUp_Counter(2);
+		AppFunctions.SwipeUp_Counter(1);
 		AppFunctions.click_Todaydetails_element();			
 		logStep("Checking the  Extended today datail page ad is presnted or not");
 		AppiumFunctions.Check_submodules_Today_ad();
