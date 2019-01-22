@@ -174,7 +174,7 @@ extends Drivers
 				public void Extended_Runningpage_Ad() throws Exception
 				{
 					System.out.println("====== Validating Extended Running page Ad TestCase Started =======");
-					AppFunctions.SwipeUp_Counter(2);		
+					//AppFunctions.SwipeUp_Counter(2);		
 					AppFunctions.click_Running_element();
 					AppFunctions.SwipeUp_Counter(3);
 					logStep("Checking the Running bb ad is presnted or not");
