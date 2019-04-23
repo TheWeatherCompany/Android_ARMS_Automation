@@ -6,4 +6,15 @@
       <class name="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI">
+        <methods>
+          <include name="Extended_Maps_Radar_page_Ad"/>
+          <include name="Before_Test"/>
+          <include name="End_Test"/>
+        </methods>
+      </class> <!-- ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

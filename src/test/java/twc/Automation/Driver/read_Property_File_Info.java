@@ -14,7 +14,7 @@ public class read_Property_File_Info {
 	public static void property() throws IOException
 	
 	{
-		String dataFilePath="/Users/macmini/eclipse-workspace/ANDROID_ARMS/DataFile.Properties";
+		String dataFilePath="/Users/jenkins/Documents/projects/Android_ARMS_Automation/DataFile.Properties";
 		
 		File file = new File(dataFilePath);
 		try {
