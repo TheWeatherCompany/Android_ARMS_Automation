@@ -92,7 +92,7 @@ public class AppiumFunctions extends Drivers{
 	public static void AppiumServerStart() throws InterruptedException{
 
 		CommandLine command = new CommandLine("/usr/local/bin/node");
-		command.addArgument("/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/main.js", false);
+		command.addArgument("/Applications/Appium 2.app/Contents/Resources/app/node_modules/appium/build/lib/main.js", false);
 		//		CommandLine command = new CommandLine("/Applications/Appium.app/Contents/Resources/node/bin/node");
 		//		command.addArgument("/Applications/Appium.app/Contents/Resources/node_modules/appium/bin/appium.js", false);
 
@@ -208,7 +208,7 @@ public class AppiumFunctions extends Drivers{
 
 	@SuppressWarnings("rawtypes")
 	public static void LaunchAppWithFullReset() throws Exception{
-
+//
 		killADB();
 		AppiumServerStop();
 		AppiumServerStart();
@@ -216,7 +216,7 @@ public class AppiumFunctions extends Drivers{
 		DeviceStatus device_status = new DeviceStatus();
 		int Cap = device_status.Device_Status();
 
-		//try {
+		//try {]
 
 		String[][] capabilitydata = read_excel_data.exceldataread("Capabilities");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -226,16 +226,20 @@ public class AppiumFunctions extends Drivers{
 			capabilities.setCapability(capabilitydata[1][0], capabilitydata[1][Cap]);
 			capabilities.setCapability(capabilitydata[2][0], capabilitydata[2][Cap]); 
 			capabilities.setCapability(capabilitydata[3][0], capabilitydata[3][Cap]);
-			capabilities.setCapability(capabilitydata[7][0], capabilitydata[7][Cap]); 
+			//capabilities.setCapability(capabilitydata[7][0], capabilitydata[7][Cap]); 
 			capabilities.setCapability(capabilitydata[9][0], capabilitydata[9][Cap]);
 			capabilities.setCapability(capabilitydata[10][0],capabilitydata[10][Cap]);
 			capabilities.setCapability(capabilitydata[12][0],capabilitydata[12][Cap]);
+			capabilities.setCapability("deviceName","Android");
 			capabilities.setCapability("appActivity","com.weather.Weather.app.SplashScreenActivity");
-			//capabilities.setCapability("automationName","UiAutomator2");
 			System.out.println("app : "+capabilitydata[10][Cap]);
 			capabilities.setCapability(capabilitydata[13][0],capabilitydata[13][Cap]);
 			//capabilities.setCapability(capabilitydata[14][0],capabilitydata[14][Cap]);
-			
+			//capabilities.setCapability("automationName","UiAutomator2");
+			//capabilities.setCapability(ScreenShot, ScreenShot“deviceReadyTimeout”,“10”);
+
+
+			//capabilities.setCapability("automationName","UiAutomator2");
 			Thread.sleep(50000);
 			
 			Ad = new AndroidDriver(new URL(capabilitydata[15][Cap]), capabilities);
@@ -377,8 +381,8 @@ public class AppiumFunctions extends Drivers{
 	{
 		WebElement feedad=null;
 		try{
-			logStep("Checking for feed2 ad");
-			System.out.println("Checking for feed2 ad");
+			logStep("Checking for Radar&Maps feed card ad");
+			System.out.println("Checking for Radar&Maps feed card ad");
 			Thread.sleep(5000);
 			feedad=Ad.findElementByClassName("android.webkit.WebView");
 			//feedad=	Ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.view.ViewGroup");
@@ -386,23 +390,23 @@ public class AppiumFunctions extends Drivers{
 			Thread.sleep(2000);
 			if(feedad.isDisplayed())
 			{
-				logStep("feed_2 ad present");
-				System.out.println("feed2 ad present");
+				logStep("Radar&Map feed card ad present");
+				System.out.println("Radar&Maps feed card ad present");
 				//System.out.println("feed2 ad present and size is"+feedad.getSize());
 				//screenShot("feed2");
-				ScreenShot("feed_2","Passed");
+				ScreenShot("Radar&Maps feed card","Passed");
 				logStep("took the passed screenshot");
-				System.out.println("took the feed2 screenshot");
+				System.out.println("took the Radar&Maps feed card screenshot");
 			}		    
 		}
 		catch(Exception e)
 		{
-			logStep("feed_2 ad not present on the screen");
+			logStep("Radar&Maps ad not present on the screen");
 			//screenShot_fail("feed2");
-			ScreenShot("feed_2","Failed");
+			ScreenShot("Radar&Maps","Failed");
 			attachScreen();
-			System.out.println("took the failed feed2 screen shot");
-			Assert.fail("feed2 ad not present");
+			System.out.println("took the failed Radar&Maps screen shot");
+			Assert.fail("Radar&Maps ad not present");
 
 		}
 	}
@@ -569,9 +573,7 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed Airpollution feed card screen shot");
 		Assert.fail("Airpollution feed card ad not present");
 		} 
-	finally{
-			AppFunctions.clickOnBackArrowElement();
-		}
+	
 	}
 	public static void Check_feed5_ad() throws Exception
 	{ 
@@ -711,9 +713,7 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed submoduleAd_Hourly screenshot");
 			Assert.fail("Hourly submodule ad is not  present");
 		}
-		finally {
-			AppFunctions.clickOnBackArrowElement();
-		}
+		
 	
 	}
 	public static void Check_submodules_Daily_ad() throws Exception
@@ -760,8 +760,8 @@ public class AppiumFunctions extends Drivers{
 	public static void Check_submodules_Maps_ad() throws Exception
 	{ 
 		try{
-			logStep("Checking for Maps Submodule ad");
-			System.out.println("Checking for Maps Submodule  ad");
+			logStep("Checking for Radar & Maps Submodule ad");
+			System.out.println("Checking for Radar & Maps Submodule  ad");
 			Thread.sleep(5000);
 			//WebElement submodulead=Ad.findElement(By.xpath("//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ViewSwitcher[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]"));
 			//WebElement submodulead  =Ad.findElementById("com.weather.Weather:id/ad_view_holder");
@@ -773,29 +773,29 @@ public class AppiumFunctions extends Drivers{
 			Thread.sleep(2000);
 			if(submodulead.isDisplayed())
 			{
-				logStep("Maps submodule ad present");
-				System.out.println("Maps submodule ad present");
+				logStep("Radar & Maps submodule ad present");
+				System.out.println("Radar & Maps submodule ad present");
 				//System.out.println("Maps submodule ad present ad present and size is"+submodulead.getSize());			
-				ScreenShot("Maps ad","Passed");
+				ScreenShot("Radar & Maps","Passed");
 				attachScreen();
-				System.out.println("took the passed submoduleAd_Maps screenshot");
-				System.out.println("took the submoduleAd_Maps screenshot");
+				System.out.println("took the passed submoduleAd_Radar & Maps screenshot");
+				System.out.println("took the submoduleAd_Radar & Maps screenshot");
 			}	
 			
 		}
 		catch(Exception e)
 		{
-			logStep("Maps page ad is not presented on the screen");
-			System.out.println("Maps page ad is not presented on the screen");
-			ScreenShot("Maps ad","Failed");
+			logStep("Radar & Maps page ad is not presented on the screen");
+			System.out.println("Radar & Maps page ad is not presented on the screen");
+			ScreenShot("Radar & Maps ad","Failed");
 			attachScreen();
-			logStep("took the failed submoduleAd_Maps screenshot");
-			System.out.println("took the failed submoduleAd_Maps screenshot");
-			Assert.fail("Maps submodule ad is not  present");
+			logStep("took the failed submoduleAd_Radar & Maps screenshot");
+			System.out.println("took the failed submoduleAd_Radar & Maps screenshot");
+			Assert.fail("Radar & Maps submodule ad is not  present");
 		}
 		finally {
 			AppFunctions.clickOnBackArrowElement();
-		}		
+		}
 	}
 	public static void Check_submodules_Airpollution_ad() throws Exception
 	{ 
@@ -925,6 +925,7 @@ public class AppiumFunctions extends Drivers{
 		String separator = File.separator;
 		//String filePath = System.getProperty("user.dir")+separator+"screenshots"+separator+FeedAdVAlidationonUI.timeStamp + separator + screeenshotName +"_Fail"+ ".jpeg";
 		String filePath = System.getProperty("user.dir")+separator+"screenshots"+separator+"Failed"+separator+FeedAdVAlidationonUI.timeStamp + separator + screeenshotName +"_Fail"+ ".jpeg";
+		
 		//Screenshots/Failed/*.jpeg
 		// Take screenshot
 		File sourceFile = ((TakesScreenshot) Ad).getScreenshotAs(OutputType.FILE);
@@ -1327,10 +1328,10 @@ public class AppiumFunctions extends Drivers{
 	{ 
 		Thread.sleep(5000);
 		logStep("boatbeach bb ad present");
-		System.out.println("boatbeach bb present");
+		//System.out.println("boatbeach bb present");
 		//System.out.println("fee4 ad present and size is"+feedad.getSize());
 		ScreenShot("boatbeach bb","Passed");
-		System.out.println("took the boatbeach bb screenshot");
+		//System.out.println("took the boatbeach bb screenshot");
 		WebElement feedad=null;
 		try{
 			logStep("Checking for boatbeach bb ad");

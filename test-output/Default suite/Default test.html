@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 26 17:37:33 IST 2018</td>
+<td>Started on:</td><td>Wed Apr 17 08:09:52 EDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>1219 seconds (1219218 ms)</td>
+<tr><td>Total time:</td><td>958 seconds (958916 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,120 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Maps_Radar_page_Ad()'><b>Extended_Maps_Radar_page_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;iosbuildserver.usga.ibm.com&apos;, ip: &apos;9.105.246.168&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/jenkins/Documents/projects/Android_ARMS_Automation/APKFile/app_google_debug_904000105.apk, appPackage=com.weather.Weather, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=e10e1627, platform=LINUX, deviceUDID=e10e1627, appActivity=com.weather.Weather.app.SplashScreenActivity, desired={app=/Users/jenkins/Documents/projects/Android_ARMS_Automation/APKFile/app_google_debug_904000105.apk, appPackage=com.weather.Weather, appActivity=com.weather.Weather.app.SplashScreenActivity, noReset=true, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=7.0, platformName=Android, deviceName=Android}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G930V, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 72f0ddcc-83cf-427c-9d8e-8400713bd737
+*** Element info: {Using=accessibility id, value=Navigate up}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByAccessibilityId(DefaultGenericMobileDriver.java:144)
+	at io.appium.java_client.AppiumDriver.findElementByAccessibilityId(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByAccessibilityId(AndroidDriver.java:1)
+	at twc.Automation.HandleWithApp.AppFunctions.clickOnBackArrowElement(AppFunctions.java:1718)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_submodules_Maps_ad(AppiumFunctions.java:797)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Maps_Radar_page_Ad(FeedAdVAlidationonUI.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1821075471", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1821075471'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.51.0&apos;, revision: &apos;1af067dbcaedd7d2ab9af5151fc471d363d97193&apos;, time: &apos;2016-02-05 11:20:57&apos;
+System info: host: &apos;iosbuildserver.usga.ibm.com&apos;, ip: &apos;9.105.246.168&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/Users/jenkins/Documents/projects/Android_ARMS_Automation/APKFile/app_google_debug_904000105.apk, appPackage=com.weather.Weather, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=e10e1627, platform=LINUX, deviceUDID=e10e1627, appActivity=com.weather.Weather.app.SplashScreenActivity, desired={app=/Users/jenkins/Documents/projects/Android_ARMS_Automation/APKFile/app_google_debug_904000105.apk, appPackage=com.weather.Weather, appActivity=com.weather.Weather.app.SplashScreenActivity, noReset=true, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=7.0, platformName=Android, deviceName=Android}, appium-version=1.4.13, newCommandTimeout=100000, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G930V, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 72f0ddcc-83cf-427c-9d8e-8400713bd737
+*** Element info: {Using=accessibility id, value=Navigate up}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByAccessibilityId(DefaultGenericMobileDriver.java:144)
+	at io.appium.java_client.AppiumDriver.findElementByAccessibilityId(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByAccessibilityId(AndroidDriver.java:1)
+	at twc.Automation.HandleWithApp.AppFunctions.clickOnBackArrowElement(AppFunctions.java:1718)
+	at twc.Automation.HandleWithAppium.AppiumFunctions.Check_submodules_Maps_ad(AppiumFunctions.java:797)
+	at ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Maps_Radar_page_Ad(FeedAdVAlidationonUI.java:346)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>136</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,45 +189,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Allergy_Ad()'><b>Extended_Allergy_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
-<td></td>
-<td>150</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
-<tr>
 <td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Boat_beach_Ad()'><b>Extended_Boat_beach_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
 <td></td>
-<td>169</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
+<td>106</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
 <tr>
 <td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_ColdFlu_Ad()'><b>Extended_ColdFlu_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
 <td></td>
-<td>85</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
+<td>84</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
 <tr>
 <td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Deatail_Airpollution_Ad()'><b>Extended_Deatail_Airpollution_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
 <td></td>
-<td>142</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
+<td>87</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
 <tr>
 <td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Deatail_MapsPage_Ad()'><b>Extended_Deatail_MapsPage_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
 <td></td>
-<td>108</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
+<td>93</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
 <tr>
 <td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Detailed_NewsPage_Ad()'><b>Extended_Detailed_NewsPage_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
 <td></td>
-<td>150</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
+<td>97</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
 <tr>
 <td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Runningpage_Ad()'><b>Extended_Runningpage_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
 <td></td>
-<td>149</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
+<td>97</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
 <tr>
 <td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_Today_datailpage_Ad()'><b>Extended_Today_datailpage_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
 <td></td>
-<td>97</td>
-<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@eac3a26</td></tr>
+<td>22</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
+<tr>
+<td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Extended_hourly_page_Ad()'><b>Extended_hourly_page_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
+<td></td>
+<td>16</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
+<tr>
+<td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_Airpollution_feed_card()'><b>Validating_Airpollution_feed_card</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
+<td></td>
+<td>4</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
+<tr>
+<td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_Home_page_Ad()'><b>Validating_Home_page_Ad</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
+<td></td>
+<td>36</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
+<tr>
+<td title='ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI.Validating_Radar_Maps_feed__card()'><b>Validating_Radar_Maps_feed__card</b><br>Test class: ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI</td>
+<td></td>
+<td>9</td>
+<td>ANDROID_ARMS.ANDROID_ARMS.FeedAdVAlidationonUI@344426bf</td></tr>
 </table><p>
 </body>
 </html>

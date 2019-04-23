@@ -1723,7 +1723,7 @@ catch(Exception e)
 	{
 	try {
 		List<WebElement> ele=Ad.findElementsById("com.weather.Weather:id/icon");
-		ele.get(2).click();
+		ele.get(1).click();
 		Thread.sleep(2000);
 	//Ad.findElementsById("com.weather.Weather:id/icon").get(2).click();
 	}
@@ -1749,7 +1749,7 @@ catch(Exception e)
 	public static void click_radar_element() throws Exception
 	{
 	List<WebElement> ele=Ad.findElementsById("com.weather.Weather:id/smallLabel");
-	 ele.get(3).click();
+	 ele.get(1).click();
      Thread.sleep(2000);
 	}
 	
@@ -1762,7 +1762,7 @@ catch(Exception e)
 	public static void click_Boat_Beach_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Currently Low Tide").click();
+		Ad.findElementByName("Currently High Tide").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
@@ -1773,11 +1773,11 @@ catch(Exception e)
 	public static void click_Allergy_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Breathing is good in your area").click();
+		Ad.findElementByName("Pollen is high in your area").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_1_description").click();
 		Thread.sleep(3000);
 		}		
 	}
@@ -1849,7 +1849,7 @@ catch(Exception e)
 		Thread.sleep(3000);
 	}
 	catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_3_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_4_description").click();
 		Thread.sleep(3000);
 	
 	}
@@ -1858,11 +1858,11 @@ catch(Exception e)
 	public static void click_Running_element() throws Exception
 	{
 		try {
-		Ad.findElementByName("Bad running weather right now. Better later today.").click();
+		Ad.findElementByName("Tough run conditions now.").click();
 		Thread.sleep(3000);
 		}
 		catch(Exception e) {
-		Ad.findElementById("com.weather.Weather:id/index_4_description").click();
+		Ad.findElementById("com.weather.Weather:id/index_2_description").click();
 		Thread.sleep(3000);
 		}
 	}
