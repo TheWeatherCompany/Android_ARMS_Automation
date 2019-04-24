@@ -793,9 +793,7 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed submoduleAd_Radar & Maps screenshot");
 			Assert.fail("Radar & Maps submodule ad is not  present");
 		}
-		finally {
-			AppFunctions.clickOnBackArrowElement();
-		}
+		
 	}
 	public static void Check_submodules_Airpollution_ad() throws Exception
 	{ 
