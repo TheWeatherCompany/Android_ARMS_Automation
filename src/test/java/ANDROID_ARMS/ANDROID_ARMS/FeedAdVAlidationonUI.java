@@ -344,7 +344,7 @@ extends Drivers
 				AppFunctions.click_daily_element();
 				logStep("Checking the Radar ad is presnted or not");
 				AppiumFunctions.Check_submodules_Maps_ad();
-				AppFunctions.click_home_element();
+				//AppFunctions.click_home_element();
 				System.out.println("====== Validating Extended Maps&Radar page Ad TestCase End =======");    
 
 			}
