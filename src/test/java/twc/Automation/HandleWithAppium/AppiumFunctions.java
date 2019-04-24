@@ -793,7 +793,10 @@ public class AppiumFunctions extends Drivers{
 			System.out.println("took the failed submoduleAd_Radar & Maps screenshot");
 			Assert.fail("Radar & Maps submodule ad is not  present");
 		}
-		
+
+          finally{
+			AppFunctions.clickOnBackArrowElement();
+	         }			
 	}
 	public static void Check_submodules_Airpollution_ad() throws Exception
 	{ 
@@ -1471,5 +1474,43 @@ public static void Check_Home_ad() throws Exception
 	Assert.fail("home page ad not present");
 	}	
 	} 
+public static void Check_submodules_Mapps_ad() throws Exception
+{ 
+	try{
+		logStep("Checking for Radar & Maps Submodule ad");
+		System.out.println("Checking for Radar & Maps Submodule  ad");
+		Thread.sleep(5000);
+		//WebElement submodulead=Ad.findElement(By.xpath("//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ViewSwitcher[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]"));
+		//WebElement submodulead  =Ad.findElementById("com.weather.Weather:id/ad_view_holder");
+		//WebElement submodulead=Ad.findElement(By.xpath("/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]"));
+		//WebElement submodulead=Ad.findElement(By.xpath("//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ViewSwitcher[1]/android.widget.FrameLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]"));			
+		//WebElement submodulead=	Ad.findElementByXPath("//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]");
+		//WebElement submodulead=	Ad.findElementByXPath("//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]");
+		WebElement submodulead=Ad.findElementByClassName("android.webkit.WebView");
+		Thread.sleep(2000);
+		if(submodulead.isDisplayed())
+		{
+			logStep("Radar & Maps submodule ad present");
+			System.out.println("Radar & Maps submodule ad present");
+			//System.out.println("Maps submodule ad present ad present and size is"+submodulead.getSize());			
+			ScreenShot("Radar & Maps","Passed");
+			attachScreen();
+			System.out.println("took the passed submoduleAd_Radar & Maps screenshot");
+			System.out.println("took the submoduleAd_Radar & Maps screenshot");
+		}	
+		
+	}
+	catch(Exception e)
+	{
+		logStep("Radar & Maps page ad is not presented on the screen");
+		System.out.println("Radar & Maps page ad is not presented on the screen");
+		ScreenShot("Radar & Maps ad","Failed");
+		attachScreen();
+		logStep("took the failed submoduleAd_Radar & Maps screenshot");
+		System.out.println("took the failed submoduleAd_Radar & Maps screenshot");
+		Assert.fail("Radar & Maps submodule ad is not  present");
+	}
+	
+}
 
 }
