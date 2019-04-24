@@ -207,7 +207,7 @@ extends Drivers
 		}
 		//Validating Health&Activities Module page Ads
 		//Validating Boat&Beach Module page Ad
-		    @Test(priority =6,enabled = true)
+		    @Test(priority =7,enabled = true)
 			@Title("Validating Extended Boat&Beach page Ad")
 			public void Extended_Boat_beach_Ad() throws Exception
 			{
@@ -235,7 +235,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 					}
 					//Validating Cold_flu Module page Ad
-					@Test(priority =7,enabled = true)
+					@Test(priority =8,enabled = true)
 		
 					@Title("Validating Extended Cold_flu page Ad")
 					public void Extended_ColdFlu_Ad() throws Exception
@@ -273,7 +273,7 @@ extends Drivers
 	public void Extended_Deatail_Airpollution_Ad() throws Exception
 	{
 		System.out.println("====== Validating Extended Deatail Airpollution TestCase Started =======");
-		AppFunctions.SwipeUp_Counter(1);
+		AppFunctions.SwipeUp_Counter(2);
 		AppFunctions.click_Airpollution_element();				
 		logStep("Checking the  Extended Deatail Airpollution ad is presnted or not");
 		AppiumFunctions.Check_submodules_Airpollution_ad();
