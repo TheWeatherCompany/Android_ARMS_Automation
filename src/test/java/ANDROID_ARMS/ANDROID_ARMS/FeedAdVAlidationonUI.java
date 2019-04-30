@@ -207,12 +207,12 @@ extends Drivers
 		}
 		//Validating Health&Activities Module page Ads
 		//Validating Boat&Beach Module page Ad
-		    @Test(priority =7,enabled = true)
+		    @Test(priority =6,enabled = true)
 			@Title("Validating Extended Boat&Beach page Ad")
 			public void Extended_Boat_beach_Ad() throws Exception
 			{
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase Started =======");
-				//AppFunctions.SwipeUp_Counter(1);	
+				AppFunctions.SwipeUp_Counter(1);	
 				AppFunctions.click_Boat_Beach_element();
 				AppFunctions.SwipeUp_Counter(3);
 				logStep("Checking the boatbeach bb ad is presnted or not");
@@ -221,12 +221,12 @@ extends Drivers
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
 			}
 			        //Validating Running Module page Ad
-					@Test(priority =5,enabled = true)
+					@Test(priority =8,enabled = true)
 					@Title("Validating Extended Running page Ad")
 					public void Extended_Runningpage_Ad() throws Exception
 					{
 						System.out.println("====== Validating Extended Running page Ad TestCase Started =======");
-						AppFunctions.SwipeUp_Counter(1);		
+						//AppFunctions.SwipeUp_Counter(1);		
 						AppFunctions.click_Running_element();
 						AppFunctions.SwipeUp_Counter(3);
 						logStep("Checking the Running bb ad is presnted or not");
@@ -235,7 +235,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 					}
 					//Validating Cold_flu Module page Ad
-					@Test(priority =8,enabled = true)
+					@Test(priority =7,enabled = true)
 		
 					@Title("Validating Extended Cold_flu page Ad")
 					public void Extended_ColdFlu_Ad() throws Exception
@@ -250,7 +250,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 					}
 					//Validating Allergy Module page Ad
-					/*@Test(priority =6,enabled = true)
+					/*@Test(priority =5,enabled = true)
 					@Title("Validating Extended Allergy page Ad")
 					public void Extended_Allergy_Ad() throws Exception
 					{
