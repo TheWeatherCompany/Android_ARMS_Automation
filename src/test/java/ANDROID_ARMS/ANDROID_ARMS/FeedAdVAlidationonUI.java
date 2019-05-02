@@ -173,7 +173,7 @@ extends Drivers
 		public void Extended_Deatail_MapsPage_Ad() throws Exception
 		{
 			System.out.println("====== Validating Extended Deatail MapsPage TestCase Started =======");
-			AppFunctions.SwipeUp_Counter(2);
+			AppFunctions.SwipeUp_Counter(1);
 			AppFunctions.click_Mapsdetails_element();				
 			logStep("Checking the  Extended Deatail MapsPage ad is presnted or not");
 			AppiumFunctions.Check_submodules_Maps_ad();
@@ -181,7 +181,7 @@ extends Drivers
 			System.out.println("====== Validating Extended Deatail MapsPage Ad TestCase End =======");    
 		}
 		//Validating Radar&Maps feed card
-		@Test(priority =3,enabled = true)
+		/*@Test(priority =3,enabled = true)
 		@Title("Validating Radar&Maps feed card Ad")
 		public void Validating_Radar_Maps_feed__card() throws Exception
 		{
@@ -191,7 +191,7 @@ extends Drivers
 			logStep("Scroll the App to Radar&Maps feed card");
 			AppiumFunctions.Check_feed2_ad();
 			System.out.println("====== Validating Radar&Maps feed card TestCase End =======");
-		}
+		}*/
 		@Test(priority =4,enabled = true)
 		@Title("Validating Extended Today page Ad")
 		public void Extended_Today_datailpage_Ad() throws Exception
@@ -281,7 +281,7 @@ extends Drivers
 		System.out.println("====== Validating Extended Deatail Airpollution Ad TestCase End =======");    
 	}
 	// Validating Air Pollution feed card
-		@Test(priority =10,enabled = true)
+		/*@Test(priority =10,enabled = true)
 		@Title("Validating  Airpollution feed card")
 		public void Validating_Airpollution_feed_card() throws Exception
 		{
@@ -294,13 +294,13 @@ extends Drivers
 			logStep("Checking the Airpollution_feed_card is presnted or not");
 			AppiumFunctions.Check_Airpollution_feedcard();
 		    System.out.println("====== Validating Airpollution_feed_card TestCase End =========");
-		}
+		}*/
 	@Test(priority =11,enabled = true)
 	@Title("Validating Extended News page Ad")
 	public void Extended_Detailed_NewsPage_Ad() throws Exception
 	{
 		System.out.println("====== Validating Extended Deatail news page TestCase Started =======");
-		AppFunctions.SwipeUp_Counter(2);
+		AppFunctions.SwipeUp_Counter(1);
 		AppFunctions.click_news_element();				
 		logStep("Checking the  Extended Deatail News Page ad is presnted or not");
 		AppiumFunctions.Check_submodules_news_ad();
