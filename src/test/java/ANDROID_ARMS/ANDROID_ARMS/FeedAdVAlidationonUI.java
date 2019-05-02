@@ -57,7 +57,7 @@ extends Drivers
 		System.out.println("======= Validating feed_1 Ad TestCase Started =======");
 		//Scroll the app to feed_1 ad
 		logStep("scrolling the app");
-		AppFunctions.SwipeUp_Counter(2);
+		AppFunctions.SwipeUp_Counter(1);
 		//checking the feed_1 ad is coming or not
 		logStep("Checking the feed_1 is presnted or not");
 		AppiumFunctions.Check_feed1_ad();
