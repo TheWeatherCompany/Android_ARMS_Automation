@@ -881,7 +881,7 @@ public class AppiumFunctions extends Drivers{
 		String[][] capabilitydata = read_excel_data.exceldataread("Capabilities");
 		CharlesFunctions.ver = capabilitydata[16][2].toString();
 		
-		String Foldername = ScreenShot+"/"+CharlesFunctions.ver;
+		String Foldername = "/Macintosh HD⁩/⁨Users⁩/⁨jenkins⁩/⁨.jenkins⁩▸⁨workspace⁩/Android_ARMS⁩/⁨screenshots"+"/"+CharlesFunctions.ver;
 		folder = new File(Foldername);
 
 
