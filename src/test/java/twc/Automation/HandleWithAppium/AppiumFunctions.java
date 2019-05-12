@@ -250,6 +250,10 @@ public class AppiumFunctions extends Drivers{
 		Ad.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		//####added ths to handle allow button
 		Thread.sleep(20000);
+      Thread.sleep(20000);
+		clickONNext();
+	    ClickonIUnderstand();
+		clickOnAllow();
 		try{
 			if((Ad.findElementByName("Allow")).isDisplayed()){
 				Ad.findElementByName("Allow").click();
@@ -1512,5 +1516,45 @@ public static void Check_submodules_Mapps_ad() throws Exception
 	}
 	
 }
+public static void clickONNext() throws Exception{
+	try {
+		Ad.findElementById("com.weather.Weather:id/ok_button").click();
+	Thread.sleep(10000);
+	}
+	catch(Exception e) {
+		
+	}
+}
+public static void clickOnAllow() throws Exception{
+try {
+	Ad.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
+	Thread.sleep(10000);
+}
+catch(Exception e) {
+	
+}
+}
+public static void ClickonIUnderstand() throws Exception{
+try {
+	Ad.findElementById("com.weather.Weather:id/next_button_text").click();
+
+Thread.sleep(10000);
+}
+catch(Exception e)
+{
+	
+}
+}
+//Download XML file
+	public static void downloadXMLFile() throws Exception{
+		
+		CharlesFunctions.ExportSession();
+		Thread.sleep(5000);
+		System.out.println("Export file");
+		//driver.navigate().to(readExcelValues.data[3][0]);
+		Thread.sleep(8000);
+	
+		//driver.close();
+	}
 
 }

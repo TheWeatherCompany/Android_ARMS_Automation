@@ -159,7 +159,7 @@ extends Drivers
 	{
 	    logStep("Validating Home page Ad TestCase Started");
 		System.out.println("====== Validating Home page Ad TestCase Started =======");
-		AppFunctions.Kill_Launch_App();
+		//AppFunctions.Kill_Launch_App();
 		logStep("Clearing the charles session");
 		CharlesFunctions.ClearSessions();
 		logStep("Cleared the charles session");
@@ -181,7 +181,7 @@ extends Drivers
 			System.out.println("====== Validating Extended Deatail MapsPage Ad TestCase End =======");    
 		}
 		//Validating Radar&Maps feed card
-		/*@Test(priority =3,enabled = true)
+		@Test(priority =3,enabled = true)
 		@Title("Validating Radar&Maps feed card Ad")
 		public void Validating_Radar_Maps_feed__card() throws Exception
 		{
@@ -191,7 +191,7 @@ extends Drivers
 			logStep("Scroll the App to Radar&Maps feed card");
 			AppiumFunctions.Check_feed2_ad();
 			System.out.println("====== Validating Radar&Maps feed card TestCase End =======");
-		}*/
+		}
 		@Test(priority =4,enabled = true)
 		@Title("Validating Extended Today page Ad")
 		public void Extended_Today_datailpage_Ad() throws Exception
@@ -207,7 +207,7 @@ extends Drivers
 		}
 		//Validating Health&Activities Module page Ads
 		//Validating Boat&Beach Module page Ad
-		    @Test(priority =6,enabled = true)
+		  /*  @Test(priority =6,enabled = true)
 			@Title("Validating Extended Boat&Beach page Ad")
 			public void Extended_Boat_beach_Ad() throws Exception
 			{
@@ -219,7 +219,7 @@ extends Drivers
 				AppiumFunctions.Check_boatbeach_bb_ad();
 				//AppFunctions.clickOnBackArrowElement();
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
-			}
+			}*/
 			        //Validating Running Module page Ad
 					@Test(priority =7,enabled = true)
 					@Title("Validating Extended Running page Ad")
@@ -235,7 +235,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 					}
 					//Validating Cold_flu Module page Ad
-					/*@Test(priority =8,enabled = true)
+					@Test(priority =8,enabled = true)
 		
 					@Title("Validating Extended Cold_flu page Ad")
 					public void Extended_ColdFlu_Ad() throws Exception
@@ -248,7 +248,7 @@ extends Drivers
 						AppiumFunctions.Check_ColdFlu_bb_ad();
 						//AppFunctions.clickOnBackArrowElement();
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
-					}*/
+					}
 					//Validating Allergy Module page Ad
 					/*@Test(priority =5,enabled = true)
 					@Title("Validating Extended Allergy page Ad")
@@ -570,19 +570,19 @@ extends Drivers
 	@BeforeTest
 	public void Before_Test() throws Exception{		
 		System.out.println("================= Before Test Started =========================");	
-		//AppiumFunctions.UnInstallApp();
+		AppiumFunctions.UnInstallApp();
 		CharlesFunctions.charlesOpen();
 		AppiumFunctions.CheckBuildFolder(AppiumFunctions.folder);
 		CharlesFunctions.openCharlesBrowser();
 		AppiumFunctions.delete_screenshots();
 		AppiumFunctions.LaunchAppWithFullReset();
-		AppFunctions.Kill_Launch_App();
+		//AppFunctions.Kill_Launch_App();
 		System.out.println("================= Before Test End =========================");
 	}
 	@AfterTest
 	public void End_Test() throws Exception
 	{
-
+                  AppiumFunctions.downloadXMLFile();
 		//CharlesFunctions.StopExportSessionXMLFile();
 	//	logStep("Clearing the charles session");
 		//CharlesFunctions.ClearSessions();
