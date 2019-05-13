@@ -1527,7 +1527,7 @@ public static void clickONNext() throws Exception{
 }
 public static void clickOnAllow() throws Exception{
 try {
-	Ad.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
+Ad.findElementById("com.android.packageinstaller:id/permission_allow_button").click();
 	Thread.sleep(10000);
 }
 catch(Exception e) {
