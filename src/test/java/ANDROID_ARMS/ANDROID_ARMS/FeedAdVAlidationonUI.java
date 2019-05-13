@@ -226,7 +226,7 @@ extends Drivers
 					public void Extended_Runningpage_Ad() throws Exception
 					{
 						System.out.println("====== Validating Extended Running page Ad TestCase Started =======");
-						//AppFunctions.SwipeUp_Counter(1);		
+						AppFunctions.SwipeUp_Counter(1);		
 						AppFunctions.click_Running_element();
 						AppFunctions.SwipeUp_Counter(3);
 						logStep("Checking the Running bb ad is presnted or not");
@@ -493,7 +493,7 @@ extends Drivers
 
 
 	//Validating cold & flu Ad
-	/*@Test(priority =11,enabled = true)
+/*@Test(priority =11,enabled = true)
 						 @Title("Validating Extended cold & flu page Ad")
 						 public void Extended_cold_flu_page_Ad() throws Exception
 						{
