@@ -181,7 +181,7 @@ extends Drivers
 			System.out.println("====== Validating Extended Deatail MapsPage Ad TestCase End =======");    
 		}
 		//Validating Radar&Maps feed card
-		/*@Test(priority =3,enabled = true)
+		@Test(priority =3,enabled = true)
 		@Title("Validating Radar&Maps feed card Ad")
 		public void Validating_Radar_Maps_feed__card() throws Exception
 		{
@@ -191,7 +191,7 @@ extends Drivers
 			logStep("Scroll the App to Radar&Maps feed card");
 			AppiumFunctions.Check_feed2_ad();
 			System.out.println("====== Validating Radar&Maps feed card TestCase End =======");
-		}*/
+		}
 		@Test(priority =4,enabled = true)
 		@Title("Validating Extended Today page Ad")
 		public void Extended_Today_datailpage_Ad() throws Exception
@@ -221,7 +221,7 @@ extends Drivers
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
 			}*/
 			        //Validating Running Module page Ad
-					@Test(priority =7,enabled = true)
+					@Test(priority =5,enabled = true)
 					@Title("Validating Extended Running page Ad")
 					public void Extended_Runningpage_Ad() throws Exception
 					{
@@ -235,7 +235,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 					}
 					//Validating Cold_flu Module page Ad
-					@Test(priority =8,enabled = true)
+					@Test(priority =7,enabled = true)
 		
 					@Title("Validating Extended Cold_flu page Ad")
 					public void Extended_ColdFlu_Ad() throws Exception
@@ -250,7 +250,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 					}
 					//Validating Allergy Module page Ad
-					/*@Test(priority =5,enabled = true)
+					/*@Test(priority =6,enabled = true)
 					@Title("Validating Extended Allergy page Ad")
 					public void Extended_Allergy_Ad() throws Exception
 					{
@@ -281,7 +281,7 @@ extends Drivers
 		System.out.println("====== Validating Extended Deatail Airpollution Ad TestCase End =======");    
 	}
 	// Validating Air Pollution feed card
-		/*@Test(priority =10,enabled = true)
+		@Test(priority =10,enabled = true)
 		@Title("Validating  Airpollution feed card")
 		public void Validating_Airpollution_feed_card() throws Exception
 		{
@@ -294,7 +294,7 @@ extends Drivers
 			logStep("Checking the Airpollution_feed_card is presnted or not");
 			AppiumFunctions.Check_Airpollution_feedcard();
 		    System.out.println("====== Validating Airpollution_feed_card TestCase End =========");
-		}*/
+		}
 	@Test(priority =11,enabled = true)
 	@Title("Validating Extended News page Ad")
 	public void Extended_Detailed_NewsPage_Ad() throws Exception
