@@ -198,7 +198,7 @@ extends Drivers
 		{
 			System.out.println("====== Validating Extended today datail page testCase Started =======");
 			//AppFunctions.Kill_Launch_App();
-			AppFunctions.SwipeUp_Counter(2);
+			AppFunctions.SwipeUp_Counter(1);
 			AppFunctions.click_Todaydetails_element();			
 			logStep("Checking the  Extended today datail page ad is presnted or not");
 			AppiumFunctions.Check_submodules_Today_ad();
@@ -221,12 +221,12 @@ extends Drivers
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
 			}*/
 			        //Validating Running Module page Ad
-					@Test(priority =6,enabled = true)
+					@Test(priority =7,enabled = true)
 					@Title("Validating Extended Running page Ad")
 					public void Extended_Runningpage_Ad() throws Exception
 					{
 						System.out.println("====== Validating Extended Running page Ad TestCase Started =======");
-						AppFunctions.SwipeUp_Counter(1);		
+						//AppFunctions.SwipeUp_Counter(1);		
 						AppFunctions.click_Running_element();
 						AppFunctions.SwipeUp_Counter(3);
 						logStep("Checking the Running bb ad is presnted or not");
@@ -235,14 +235,15 @@ extends Drivers
 						System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 					}
 					//Validating Cold_flu Module page Ad
-					@Test(priority =7,enabled = true)
+					@Test(priority =6,enabled = true)
 		
 					@Title("Validating Extended Cold_flu page Ad")
 					public void Extended_ColdFlu_Ad() throws Exception
 					{
 					   
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase Started =======");
-						AppFunctions.click_cold_Flu_element();
+						AppFunctions.SwipeUp_Counter(1);
+                                                AppFunctions.click_cold_Flu_element();
 						AppFunctions.SwipeUp_Counter(1);
 						logStep("Checking the ColdFlu bb ad is presnted or not");
 						AppiumFunctions.Check_ColdFlu_bb_ad();
