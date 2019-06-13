@@ -173,7 +173,7 @@ extends Drivers
 		public void Extended_Deatail_MapsPage_Ad() throws Exception
 		{
 			System.out.println("====== Validating Extended Deatail MapsPage TestCase Started =======");
-			AppFunctions.SwipeUp_Counter(1);
+			AppFunctions.SwipeUp_Counter(2);
 			AppFunctions.click_Mapsdetails_element();				
 			logStep("Checking the  Extended Deatail MapsPage ad is presnted or not");
 			AppiumFunctions.Check_submodules_Maps_ad();
@@ -198,7 +198,7 @@ extends Drivers
 		{
 			System.out.println("====== Validating Extended today datail page testCase Started =======");
 			//AppFunctions.Kill_Launch_App();
-			AppFunctions.SwipeUp_Counter(3);
+			AppFunctions.SwipeUp_Counter(2);
 			AppFunctions.click_Todaydetails_element();			
 			logStep("Checking the  Extended today datail page ad is presnted or not");
 			AppiumFunctions.Check_submodules_Today_ad();
