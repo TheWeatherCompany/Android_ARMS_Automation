@@ -1556,5 +1556,104 @@ catch(Exception e)
 	
 		//driver.close();
 	}
+public static void Check_dailyforecast_feedad() throws Exception
+	{
+		WebElement feedad=null;
+		try{
+			logStep("Checking for dailyforecast feed card ad");
+			System.out.println("Checking for dailyforecast feed card ad");
+			Thread.sleep(5000);
+			feedad=Ad.findElementByClassName("android.webkit.WebView");
+			//feedad=	Ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.view.ViewGroup");
+			//feedad=Ad.findElementById("com.weather.Weather:id/ad_view_holder");
+			Thread.sleep(2000);
+			if(feedad.isDisplayed())
+			{
+				logStep("dailyforecast feed card ad present");
+				System.out.println("dailyforecast feed card ad present");
+				//System.out.println("feed2 ad present and size is"+feedad.getSize());
+				//screenShot("feed2");
+				ScreenShot("dailyforecast feed card","Passed");
+				logStep("took the passed screenshot");
+				System.out.println("took the dailyforecast feed card screenshot");
+			}		    
+		}
+		catch(Exception e)
+		{
+			logStep("dailyforecast ad not present on the screen");
+			//screenShot_fail("feed2");
+			ScreenShot("dailyforecast","Failed");
+			attachScreen();
+			System.out.println("took the failed dailyforecast screen shot");
+			Assert.fail("dailyforecast ad not present");
+
+		}
+	}
+public static void Check_Health_and_Activities_feedad() throws Exception
+	{
+		WebElement feedad=null;
+		try{
+			logStep("Checking for Health_and_Activities feed card ad");
+			System.out.println("Checking for Health_and_Activities feed card ad");
+			Thread.sleep(5000);
+			feedad=Ad.findElementByClassName("android.webkit.WebView");
+			//feedad=	Ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.view.ViewGroup");
+			//feedad=Ad.findElementById("com.weather.Weather:id/ad_view_holder");
+			Thread.sleep(2000);
+			if(feedad.isDisplayed())
+			{
+				logStep("Health_and_Activities feed card ad present");
+				System.out.println("dHealth_and_Activities feed card ad present");
+				//System.out.println("feed2 ad present and size is"+feedad.getSize());
+				//screenShot("feed2");
+				ScreenShot("Health_and_Activities feed card","Passed");
+				logStep("took the passed screenshot");
+				System.out.println("took the Health_and_Activities feed card screenshot");
+			}		    
+		}
+		catch(Exception e)
+		{
+			logStep("Health_and_Activities ad not present on the screen");
+			//screenShot_fail("feed2");
+			ScreenShot("Health_and_Activities","Failed");
+			attachScreen();
+			System.out.println("took the failed Health_and_Activities screen shot");
+			Assert.fail("Health_and_Activities ad not present");
+
+		}
+	}
+public static void Check_seasonalhub_feedad() throws Exception
+	{
+		WebElement feedad=null;
+		try{
+			logStep("Checking for seasonalhub feed card ad");
+			System.out.println("Checking for seasonalhub feed card ad");
+			Thread.sleep(5000);
+			feedad=Ad.findElementByClassName("android.webkit.WebView");
+			//feedad=	Ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.FrameLayout/android.view.ViewGroup");
+			//feedad=Ad.findElementById("com.weather.Weather:id/ad_view_holder");
+			Thread.sleep(2000);
+			if(feedad.isDisplayed())
+			{
+				logStep("seasonalhub feed card ad present");
+				System.out.println("seasonalhub feed card ad present");
+				//System.out.println("feed2 ad present and size is"+feedad.getSize());
+				//screenShot("feed2");
+				ScreenShot("seasonalhub feed card","Passed");
+				logStep("took the passed screenshot");
+				System.out.println("took the seasonalhub feed card screenshot");
+			}		    
+		}
+		catch(Exception e)
+		{
+			logStep("seasonalhub ad not present on the screen");
+			//screenShot_fail("feed2");
+			ScreenShot("seasonalhub","Failed");
+			attachScreen();
+			System.out.println("took the failed seasonalhub screen shot");
+			Assert.fail("seasonalhub ad not present");
+
+		}
+	}
 
 }

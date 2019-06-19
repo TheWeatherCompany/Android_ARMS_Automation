@@ -31,129 +31,7 @@ extends Drivers
 	//Validating_feedads_and_detailpageads_fromUI
 
 
-		/*@Test(priority =1,enabled = true)
-	public void Validating_Trending_page_Ad() throws Exception
-	{
-	    logStep("Validating Trending page Ad TestCase Started");
-		System.out.println("====== Validating Trending page Ad TestCase Started =======");
-		logStep("Clearing the charles session");
-		CharlesFunctions.ClearSessions();
-		logStep("Cleared the charles session");
-		logStep("Clicking the trending elemeent");
-		AppFunctions.clicktrendingElement();
-		logStep("Clicked the trending elemeent");
-		AppiumFunctions.Check_trendingpage_ad();
-		AppFunctions.clickOnBackArrowElement();
-		System.out.println("====== Validating Trending page Ad TestCase End =======");
-		logStep("Validating Trending page Ad TestCase End");
-
-	}*/
-	// Validating feed2 Ad
-	/*@Test(priority =2,enabled = true)
-	@Title("Validating feed_1 Ad call")
-	public void Validating_feed1() throws Exception
-	{
-		logStep("Validating the feed_1 TestCase");
-		System.out.println("======= Validating feed_1 Ad TestCase Started =======");
-		//Scroll the app to feed_1 ad
-		logStep("scrolling the app");
-		AppFunctions.SwipeUp_Counter(1);
-		//checking the feed_1 ad is coming or not
-		logStep("Checking the feed_1 is presnted or not");
-		AppiumFunctions.Check_feed1_ad();
-		System.out.println("====== Validating feed_1 Ad TestCase End =========");
-	}*/
-	// Validating feed2 Ad
-	/*@Test(priority =3,enabled = true)
-	@Title("Validating Radar feed card")
-	public void Validating_feed2() throws Exception
-	{
-	    logStep("Validating the Radar feed card TestCase");
-		System.out.println("======= Validating Radar feed card TestCase Started =======");
-		//Scroll the app to feed_2 ad
-		logStep("scrolling the app");
-		AppFunctions.SwipeUp_Counter(2);
-		//checking the feed_1 ad is coming or not
-		logStep("Checking the Radar feed card presnted or not");
-		AppiumFunctions.Check_radarfeed_ad();
-		System.out.println("====== Validating Radar feed card TestCase End =========");
-	}
-
-	// Validating Health&Activities card
-	@Test(priority =4,enabled = true)
-	@Title("Validating Health&Activities Ad call")
-	public void Validating_Health_Activities() throws Exception
-	{
-		logStep("Validating the Health&Activities TestCase");
-		System.out.println("======= Validating Health&Activities Ad TestCase Started =======");
-		//Scroll the app to feed_3 ad
-		logStep("scrolling the app");
-		AppFunctions.SwipeUp_Counter(2);
-		//checking the feed_1 ad is coming or not
-		logStep("Checking the Health&Activities is presnted or not");
-		AppiumFunctions.Check_Health_Activities_ad();
-      	System.out.println("====== Validating Health&Activities Ad TestCase End =========");
-
-	}
-
-	// Validating Air Pollution feed card
-	@Test(priority =5,enabled = true)
-	@Title("Validating  Airpollution feed card")
-	public void Validating_Airpollution_feed_card() throws Exception
-	{
-		logStep("Validating the Airpollution_feed_card TestCase");
-		System.out.println("======= Validating Airpollution_feed_card Ad TestCase Started =======");
-		//Scroll the app to feed_2 ad
-		logStep("scrolling the app");
-		AppFunctions.SwipeUp_Counter(1);
-		//checking the feed_1 ad is coming or not
-		logStep("Checking the Airpollution_feed_card is presnted or not");
-		AppiumFunctions.Check_Airpollution_feedcard();
-	    System.out.println("====== Validating Airpollution_feed_card TestCase End =========");
-	}
-
-	//Validating Extended hourly page Ad
-	@Test(priority =6,enabled = true)
-	@Title("Validating Extended hourly page Ad")
-	public void Extended_hourly_page_Ad() throws Exception
-	{
-		System.out.println("====== Validating Extended Hourly page Ad TestCase Started =======");
-		AppFunctions.click_hourly_element();
-		logStep("Checking the hourly ad is presnted or not");
-		AppiumFunctions.Check_submodules_Hourly_ad(); 		
-		AppFunctions.click_home_element(); 
-		System.out.println("====== Validating Extended Hourly page Ad TestCase End =======");
-
-	}
-
-	//Validating Extended Daily page Ad
-	@Test(priority =7,enabled = true)
-	@Title("Validating Extended Daily page Ad")
-	public void Extended_Daily_page_Ad() throws Exception
-	{
-		System.out.println("====== Validating Extended Daily page Ad TestCase Started =======");
-		AppFunctions.click_daily_element();
-		logStep("Checking the daily ad is presnted or not");
-		AppiumFunctions.Check_submodules_Daily_ad();
-		AppFunctions.click_home_element(); 
-		System.out.println("====== Validating Extended Daily page Ad TestCase End =======");    
-	}
-
-	//Validating Extended Maps&Radar page Ad
-	@Test(priority =8,enabled = true)
-	@Title("Validating Extended Maps&Radar page Ad")
-	public void Extended_Maps_Radar_page_Ad() throws Exception
-	{
-		System.out.println("====== Validating Extended Maps&Radar page Ad TestCase Started =======");
-		AppFunctions.click_radar_element();
-		logStep("Checking the Radar ad is presnted or not");
-		AppiumFunctions.Check_submodules_Maps_ad();
-		AppFunctions.click_home_element();
-		System.out.println("====== Validating Extended Maps&Radar page Ad TestCase End =======");    
-
-	}*/
-
-	
+		
 		@Test(priority =1,enabled = true)
 	public void Validating_Home_page_Ad() throws Exception
 	{
@@ -192,7 +70,21 @@ extends Drivers
 			AppiumFunctions.Check_feed2_ad();
 			System.out.println("====== Validating Radar&Maps feed card TestCase End =======");
 		}
-		@Test(priority =4,enabled = true)
+                              //Validating  Dailyforecast feed card
+				@Test(priority =4,enabled = true)
+				@Title("Validating Radar&Maps feed card Ad")
+				public void Validating_Dailyforecast_feed__card() throws Exception
+				{
+					logStep("Validating Dailyforecast Ad TestCase Started");
+					System.out.println("====== Validating Dailyforecast Ad TestCase Started =======");
+					//scrolled app till Dailyforecast feed
+					AppFunctions.SwipeUp_Counter(1);					
+					logStep("Scroll the App to  Dailyforecast  feed card");
+					AppiumFunctions.Check_dailyforecast_feedad();
+					System.out.println("====== Validating Dailyforecast feed card TestCase End =======");
+				}
+
+		@Test(priority =5,enabled = true)
 		@Title("Validating Extended Today page Ad")
 		public void Extended_Today_datailpage_Ad() throws Exception
 		{
@@ -205,28 +97,41 @@ extends Drivers
 			//AppFunctions.clickOnBackArrowElement();
 			System.out.println("====== Validating Extended today datail page Ad TestCase End =======");    
 		}
+
+             
+		@Test(priority =6,enabled = true)
+		@Title("Validating Health_and_Activities feed Ad")
+		public void Validating_Health_and_Activities_feed__card() throws Exception
+		{
+			System.out.println("====== Validating Health and Activities feed card testCase Started =======");
+			//AppFunctions.Kill_Launch_App();
+			AppFunctions.SwipeUp_Counter(1);		
+			logStep("Checking the  Health and Activities feed card ad is presnted or not");
+			AppiumFunctions.Check_Health_and_Activities_feedad();
+			System.out.println("====== Validating Health and Activities feed card testCase End =======");    
+		}
 		//Validating Health&Activities Module page Ads
 		//Validating Boat&Beach Module page Ad
-		  /*  @Test(priority =6,enabled = true)
+		    @Test(priority =7,enabled = true)
 			@Title("Validating Extended Boat&Beach page Ad")
 			public void Extended_Boat_beach_Ad() throws Exception
 			{
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase Started =======");
-				AppFunctions.SwipeUp_Counter(1);	
+				//AppFunctions.SwipeUp_Counter(1);	
 				AppFunctions.click_Boat_Beach_element();
 				AppFunctions.SwipeUp_Counter(3);
 				logStep("Checking the boatbeach bb ad is presnted or not");
 				AppiumFunctions.Check_boatbeach_bb_ad();
 				//AppFunctions.clickOnBackArrowElement();
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
-			}*/
+			}
 			        //Validating Running Module page Ad
-					@Test(priority =6,enabled = true)
+					@Test(priority =8,enabled = true)
 					@Title("Validating Extended Running page Ad")
 					public void Extended_Runningpage_Ad() throws Exception
 					{
 						System.out.println("====== Validating Extended Running page Ad TestCase Started =======");
-						AppFunctions.SwipeUp_Counter(1);		
+						//AppFunctions.SwipeUp_Counter(1);		
 						AppFunctions.click_Running_element();
 						AppFunctions.SwipeUp_Counter(3);
 						logStep("Checking the Running bb ad is presnted or not");
@@ -235,7 +140,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Running page Ad TestCase End =======");    
 					}
 					//Validating Cold_flu Module page Ad
-					@Test(priority =7,enabled = true)
+					@Test(priority =9,enabled = true)
 		
 					@Title("Validating Extended Cold_flu page Ad")
 					public void Extended_ColdFlu_Ad() throws Exception
@@ -251,7 +156,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 					}
 					//Validating Allergy Module page Ad
-					/*@Test(priority =5,enabled = true)
+					@Test(priority =10,enabled = true)
 					@Title("Validating Extended Allergy page Ad")
 					public void Extended_Allergy_Ad() throws Exception
 					{
@@ -263,18 +168,29 @@ extends Drivers
 						AppiumFunctions.Check_Allergy_bb_ad();
 						//AppFunctions.clickOnBackArrowElement();
 						System.out.println("====== Validating Extended Allergy page Ad TestCase End =======");    
-					}*/
+					}
+                                         @Test(priority =11,enabled = true)
+					@Title("Validating SeasonalHub feed Ad")
+					public void Validating_seasonalhub_feed__card() throws Exception
+					{
+						System.out.println("====== Validating SeasonalHub feed card testCase Started =======");
+						//AppFunctions.Kill_Launch_App();
+						AppFunctions.SwipeUp_Counter(1);		
+						logStep("Checking the  SeasonalHub feed card ad is presnted or not");
+						AppiumFunctions. Check_seasonalhub_feedad();
+						System.out.println("====== Validating SeasonalHub feed  card testCase End =======");    
+					}
 	
 
 
 	
 	
-	@Test(priority =9,enabled = true)
+	@Test(priority =12,enabled = true)
 	@Title("Validating Extended Airpollution page Ad")
 	public void Extended_Deatail_Airpollution_Ad() throws Exception
 	{
 		System.out.println("====== Validating Extended Deatail Airpollution TestCase Started =======");
-		AppFunctions.SwipeUp_Counter(2);
+		AppFunctions.SwipeUp_Counter(1);
 		AppFunctions.click_Airpollution_element();				
 		logStep("Checking the  Extended Deatail Airpollution ad is presnted or not");
 		AppiumFunctions.Check_submodules_Airpollution_ad();
@@ -282,7 +198,7 @@ extends Drivers
 		System.out.println("====== Validating Extended Deatail Airpollution Ad TestCase End =======");    
 	}
 	// Validating Air Pollution feed card
-		@Test(priority =10,enabled = true)
+		@Test(priority =13,enabled = true)
 		@Title("Validating  Airpollution feed card")
 		public void Validating_Airpollution_feed_card() throws Exception
 		{
@@ -296,7 +212,7 @@ extends Drivers
 			AppiumFunctions.Check_Airpollution_feedcard();
 		    System.out.println("====== Validating Airpollution_feed_card TestCase End =========");
 		}
-	@Test(priority =11,enabled = true)
+	@Test(priority =14,enabled = true)
 	@Title("Validating Extended News page Ad")
 	public void Extended_Detailed_NewsPage_Ad() throws Exception
 	{
@@ -309,7 +225,7 @@ extends Drivers
 		System.out.println("====== Validating Extended Deatailnews page Ad TestCase End =======");    
 	}
 	//Validating Extended hourly page Ad
-			@Test(priority =12,enabled = true)
+			@Test(priority =15,enabled = true)
 			@Title("Validating Extended hourly page Ad")
 			public void Extended_hourly_page_Ad() throws Exception
 			{
@@ -323,7 +239,7 @@ extends Drivers
 			}
 
 			//Validating Extended Daily page Ad
-			/*@Test(priority =13,enabled = true)
+		       @Test(priority =16,enabled = true)
 			@Title("Validating Extended Daily page Ad")
 			public void Extended_Daily_page_Ad() throws Exception
 			{
@@ -333,10 +249,10 @@ extends Drivers
 				AppiumFunctions.Check_submodules_Daily_ad();
 				AppFunctions.click_home_element(); 
 				System.out.println("====== Validating Extended Daily page Ad TestCase End =======");    
-			}*/
+			}
 
 			//Validating Extended Maps&Radar page Ad
-			@Test(priority =14,enabled = true)
+			@Test(priority =17,enabled = true)
 			@Title("Validating Extended Maps&Radar page Ad")
 			public void Extended_Maps_Radar_page_Ad() throws Exception
 			{
