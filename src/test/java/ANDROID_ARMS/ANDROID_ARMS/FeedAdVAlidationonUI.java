@@ -126,7 +126,7 @@ extends Drivers
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
 			}*/
 			        //Validating Running Module page Ad
-					@Test(priority =7,enabled = true)
+					@Test(priority =8,enabled = true)
 					@Title("Validating Extended Running page Ad")
 					public void Extended_Runningpage_Ad() throws Exception
 					{
@@ -156,7 +156,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 					}
 					//Validating Allergy Module page Ad
-					@Test(priority =8,enabled = true)
+					/*@Test(priority =7,enabled = true)
 					@Title("Validating Extended Allergy page Ad")
 					public void Extended_Allergy_Ad() throws Exception
 					{
@@ -168,7 +168,7 @@ extends Drivers
 						AppiumFunctions.Check_Allergy_bb_ad();
 						//AppFunctions.clickOnBackArrowElement();
 						System.out.println("====== Validating Extended Allergy page Ad TestCase End =======");    
-					}
+					}*/
                                          @Test(priority =11,enabled = true)
 					@Title("Validating SeasonalHub feed Ad")
 					public void Validating_seasonalhub_feed__card() throws Exception
@@ -244,7 +244,7 @@ extends Drivers
 			public void Extended_Daily_page_Ad() throws Exception
 			{
 				System.out.println("====== Validating Extended Daily page Ad TestCase Started =======");
-				AppFunctions.click_daily_element();
+				//AppFunctions.click_daily_element();
 				logStep("Checking the daily ad is presnted or not");
 				AppiumFunctions.Check_submodules_Daily_ad();
 				AppFunctions.click_home_element(); 
