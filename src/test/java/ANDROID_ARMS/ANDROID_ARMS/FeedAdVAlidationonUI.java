@@ -247,7 +247,7 @@ extends Drivers
 				//AppFunctions.click_daily_element();
 				logStep("Checking the daily ad is presnted or not");
 				AppiumFunctions.Check_submodules_Daily_ad();
-				AppFunctions.click_home_element(); 
+				//AppFunctions.click_home_element(); 
 				System.out.println("====== Validating Extended Daily page Ad TestCase End =======");    
 			}
 
