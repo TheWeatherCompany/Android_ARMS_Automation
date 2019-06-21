@@ -112,7 +112,7 @@ extends Drivers
 		}
 		//Validating Health&Activities Module page Ads
 		//Validating Boat&Beach Module page Ad
-		    @Test(priority =7,enabled = true)
+		   /* @Test(priority =7,enabled = true)
 			@Title("Validating Extended Boat&Beach page Ad")
 			public void Extended_Boat_beach_Ad() throws Exception
 			{
@@ -124,9 +124,9 @@ extends Drivers
 				AppiumFunctions.Check_boatbeach_bb_ad();
 				//AppFunctions.clickOnBackArrowElement();
 				System.out.println("====== Validating Extended Boat&Beach page Ad TestCase End =======");    
-			}
+			}*/
 			        //Validating Running Module page Ad
-					@Test(priority =8,enabled = true)
+					@Test(priority =7,enabled = true)
 					@Title("Validating Extended Running page Ad")
 					public void Extended_Runningpage_Ad() throws Exception
 					{
@@ -156,12 +156,12 @@ extends Drivers
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 					}
 					//Validating Allergy Module page Ad
-					@Test(priority =10,enabled = true)
+					@Test(priority =12,enabled = true)
 					@Title("Validating Extended Allergy page Ad")
 					public void Extended_Allergy_Ad() throws Exception
 					{
 						System.out.println("====== Validating Extended Allergy page Ad TestCase Started =======");					
-						AppFunctions.SwipeUp_Counter(1);
+						//AppFunctions.SwipeUp_Counter(1);
 						AppFunctions.click_Allergy_element();
 						AppFunctions.SwipeUp_Counter(3);
 						logStep("Checking the Allergy bb ad is presnted or not");
@@ -185,7 +185,7 @@ extends Drivers
 
 	
 	
-	@Test(priority =12,enabled = true)
+	@Test(priority =13,enabled = true)
 	@Title("Validating Extended Airpollution page Ad")
 	public void Extended_Deatail_Airpollution_Ad() throws Exception
 	{
