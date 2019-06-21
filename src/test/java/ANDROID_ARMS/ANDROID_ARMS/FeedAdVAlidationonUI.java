@@ -156,7 +156,7 @@ extends Drivers
 						System.out.println("====== Validating Extended Cold_flu page Ad TestCase End =======");    
 					}
 					//Validating Allergy Module page Ad
-					@Test(priority =12,enabled = true)
+					@Test(priority =8,enabled = true)
 					@Title("Validating Extended Allergy page Ad")
 					public void Extended_Allergy_Ad() throws Exception
 					{
@@ -185,7 +185,7 @@ extends Drivers
 
 	
 	
-	@Test(priority =13,enabled = true)
+	@Test(priority =12,enabled = true)
 	@Title("Validating Extended Airpollution page Ad")
 	public void Extended_Deatail_Airpollution_Ad() throws Exception
 	{
