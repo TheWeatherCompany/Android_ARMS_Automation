@@ -217,7 +217,7 @@ extends Drivers
 	public void Extended_Detailed_NewsPage_Ad() throws Exception
 	{
 		System.out.println("====== Validating Extended Deatail news page TestCase Started =======");
-		AppFunctions.SwipeUp_Counter(2);
+		AppFunctions.SwipeUp_Counter(1);
 		AppFunctions.click_news_element();				
 		logStep("Checking the  Extended Deatail News Page ad is presnted or not");
 		AppiumFunctions.Check_submodules_news_ad();
