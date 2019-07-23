@@ -239,7 +239,7 @@ extends Drivers
 			}
 
 			//Validating Extended Daily page Ad
-		       @Test(priority =16,enabled = true)
+		      /* @Test(priority =16,enabled = true)
 			@Title("Validating Extended Daily page Ad")
 			public void Extended_Daily_page_Ad() throws Exception
 			{
@@ -249,7 +249,7 @@ extends Drivers
 				AppiumFunctions.Check_submodules_Daily_ad();
 				//AppFunctions.click_home_element(); 
 				System.out.println("====== Validating Extended Daily page Ad TestCase End =======");    
-			}
+			}*/
 
 			//Validating Extended Maps&Radar page Ad
 			@Test(priority =17,enabled = true)
