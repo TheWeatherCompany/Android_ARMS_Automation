@@ -29,10 +29,7 @@ extends Drivers
 {
 	public static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmm").format(Calendar.getInstance().getTime());
 	//Validating_feedads_and_detailpageads_fromUI
-
-
-		
-		@Test(priority =1,enabled = true)
+	@Test(priority =1,enabled = true)
 	public void Validating_Home_page_Ad() throws Exception
 	{
 	    logStep("Validating Home page Ad TestCase Started");
