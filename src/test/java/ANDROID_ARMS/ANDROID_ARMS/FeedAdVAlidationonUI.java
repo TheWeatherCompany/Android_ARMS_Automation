@@ -43,7 +43,7 @@ extends Drivers
 		logStep("Validating Home page Ad TestCase End");
 
 	}
-		@Test(priority =2,enabled = true)
+		@Test(priority =3,enabled = true)
 		@Title("Validating Extended Maps page Ad")
 		public void Extended_Deatail_MapsPage_Ad() throws Exception
 		{
@@ -56,7 +56,7 @@ extends Drivers
 			System.out.println("====== Validating Extended Deatail MapsPage Ad TestCase End =======");    
 		}
 		//Validating Radar&Maps feed card
-		@Test(priority =3,enabled = true)
+		@Test(priority =4,enabled = true)
 		@Title("Validating Radar&Maps feed card Ad")
 		public void Validating_Radar_Maps_feed__card() throws Exception
 		{
@@ -68,14 +68,14 @@ extends Drivers
 			System.out.println("====== Validating Radar&Maps feed card TestCase End =======");
 		}
                               //Validating  Dailyforecast feed card
-				@Test(priority =4,enabled = true)
+				@Test(priority =2,enabled = true)
 				@Title("Validating Radar&Maps feed card Ad")
 				public void Validating_Dailyforecast_feed__card() throws Exception
 				{
 					logStep("Validating Dailyforecast Ad TestCase Started");
 					System.out.println("====== Validating Dailyforecast Ad TestCase Started =======");
 					//scrolled app till Dailyforecast feed
-					AppFunctions.SwipeUp_Counter(1);					
+					AppFunctions.SwipeUp_Counter(2);					
 					logStep("Scroll the App to  Dailyforecast  feed card");
 					AppiumFunctions.Check_dailyforecast_feedad();
 					System.out.println("====== Validating Dailyforecast feed card TestCase End =======");
@@ -87,7 +87,7 @@ extends Drivers
 		{
 			System.out.println("====== Validating Extended today datail page testCase Started =======");
 			//AppFunctions.Kill_Launch_App();
-			AppFunctions.SwipeUp_Counter(2);
+			AppFunctions.SwipeUp_Counter(1);
 			AppFunctions.click_Todaydetails_element();			
 			logStep("Checking the  Extended today datail page ad is presnted or not");
 			AppiumFunctions.Check_submodules_Today_ad();
@@ -102,7 +102,7 @@ extends Drivers
 		{
 			System.out.println("====== Validating Health and Activities feed card testCase Started =======");
 			//AppFunctions.Kill_Launch_App();
-			AppFunctions.SwipeUp_Counter(1);		
+			AppFunctions.SwipeUp_Counter(2);		
 			logStep("Checking the  Health and Activities feed card ad is presnted or not");
 			AppiumFunctions.Check_Health_and_Activities_feedad();
 			System.out.println("====== Validating Health and Activities feed card testCase End =======");    
