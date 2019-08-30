@@ -141,7 +141,7 @@ public class CharlesFunctions extends Drivers{
 
 		profile = new FirefoxProfile();
 		profile.setPreference("network.proxy.type", 1);
-		profile.setPreference("network.proxy.http", "9.240.69.252");
+		profile.setPreference("network.proxy.http", "9.240.68.253");
 		//profile.setPreference("network.proxy.http", "10.30.168.211");
 		profile.setPreference("network.proxy.http_port", 8222);
 		profile.setPreference("browser.download.folderList", 2);
