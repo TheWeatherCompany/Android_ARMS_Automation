@@ -48,7 +48,7 @@ extends Drivers
 		public void Extended_Deatail_MapsPage_Ad() throws Exception
 		{
 			System.out.println("====== Validating Extended Deatail MapsPage TestCase Started =======");
-			AppFunctions.SwipeUp_Counter(2);
+			AppFunctions.SwipeUp_Counter(3);
 			AppFunctions.click_Mapsdetails_element();				
 			logStep("Checking the  Extended Deatail MapsPage ad is presnted or not");
 			AppiumFunctions.Check_submodules_Maps_ad();
@@ -75,7 +75,7 @@ extends Drivers
 					logStep("Validating Dailyforecast Ad TestCase Started");
 					System.out.println("====== Validating Dailyforecast Ad TestCase Started =======");
 					//scrolled app till Dailyforecast feed
-					AppFunctions.SwipeUp_Counter(2);					
+					AppFunctions.SwipeUp_Counter(1);					
 					logStep("Scroll the App to  Dailyforecast  feed card");
 					AppiumFunctions.Check_dailyforecast_feedad();
 					System.out.println("====== Validating Dailyforecast feed card TestCase End =======");
