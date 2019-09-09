@@ -102,7 +102,7 @@ extends Drivers
 		{
 			System.out.println("====== Validating Health and Activities feed card testCase Started =======");
 			//AppFunctions.Kill_Launch_App();
-			AppFunctions.SwipeUp_Counter(2);		
+			AppFunctions.SwipeUp_Counter(1);		
 			logStep("Checking the  Health and Activities feed card ad is presnted or not");
 			AppiumFunctions.Check_Health_and_Activities_feedad();
 			System.out.println("====== Validating Health and Activities feed card testCase End =======");    
@@ -203,7 +203,7 @@ extends Drivers
 			System.out.println("======= Validating Airpollution_feed_card Ad TestCase Started =======");
 			//Scroll the app to feed_2 ad
 			logStep("scrolling the app till Airpollution_feed_card");
-			//AppFunctions.SwipeUp_Counter(2);
+			//AppFunctions.SwipeUp_Counter(1);
 			//checking the feed_1 ad is coming or not
 			logStep("Checking the Airpollution_feed_card is presnted or not");
 			AppiumFunctions.Check_Airpollution_feedcard();
